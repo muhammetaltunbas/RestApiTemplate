@@ -1,0 +1,99 @@
+LIBRARY
+	2. http://216.10.245.166/Library/Addbook.php
+	3. http://216.10.245.166/Library/GetBook.php?AuthorName=author_name
+	4. http://216.10.245.166/Library/GetBook.php?ID=sample_id
+	5. http://216.10.245.166/Library/DeleteBook.php
+	6. POST Method
+		BaseURI : http://216.10.245.166
+		Resource : Library/Addbook.php       Method : POST
+		Input Payload : Json:
+		{
+
+		"name":"Learn Appium Automation with Java",
+		"isbn":"bcd",
+		"aisle":"227",
+		"author":"John foe"
+		}
+		Output Json
+		{
+		   "Msg": "successfully added",
+		   "ID": "bcd227"
+		}
+	7. GET Method
+		Resource : /Library/GetBook.php?AuthorName=somename         Method : GET
+		Output Json :
+		Output the array of Json object books with all below  details
+		{
+		Name : “bookname”   ( String)
+		Isbn :  “A2fdsf”   (String)
+		Aisle : 32 (Integer)
+		}
+	8. GET Method-2
+		Resource : Library/GetBook.php?ID=3389      - Method : GET
+		Output Json :
+		{
+		      "book_name": "Selenium automation using Java",
+		      "isbn": "a23hd738",
+		      "aisle": "1223"
+		   }
+	9. POST Method-2
+		Resource :/Library/DeleteBook.php      Method : POST
+		Input Payload : Json:
+		{
+
+		"ID" : "a23h345122332"
+
+		}
+		Output Response :
+		{
+		msg : book is successfully deleted”
+		}
+--------------------------------------------------------------------------------------------
+COURSE
+
+	{
+
+	"dashboard": {
+
+	"purchaseAmount": 910,
+
+	"website": "rahulshettyacademy.com"
+
+	},
+
+	"courses": [
+
+	{
+
+	"title": "Selenium Python",
+
+	"price": 50,
+
+	"copies": 6
+
+	},
+
+	{
+
+	"title": "Cypress",
+
+	"price": 40,
+
+	"copies": 4
+
+	},
+
+	{
+
+	"title": "RPA",
+
+	"price": 45,
+
+	"copies": 10
+
+	}
+
+	]
+
+	}
+--------------------------------------------------------------------------------------------
