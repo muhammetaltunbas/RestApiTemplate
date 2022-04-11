@@ -1,4 +1,4 @@
-import ShippingAPIObjects.EAD;
+import ShippingAPIObjects.MPUpdateHighDeci;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -7,8 +7,8 @@ import resources.Base;
 import java.io.IOException;
 
 
-public class TestBulkEad extends Base {
-    public EAD ead = new EAD();
+public class TestBulkMPHighDeci extends Base {
+    public MPUpdateHighDeci mdu = new MPUpdateHighDeci();
 
     @BeforeTest
     public void beforeTest() {
@@ -17,14 +17,9 @@ public class TestBulkEad extends Base {
 
     @Test
     public void startBulkProcess() throws IOException {
-        ead.bulkProcess();
+        mdu.bulkProcess();
     }
-    @Test
-    public void verifyProcessOnDatabase() throws IOException {
-        // i need to access mongo db.
-
-    }
-
+    //Next step is: Verify on DB
 
     @AfterTest
     public void printConsole() {
