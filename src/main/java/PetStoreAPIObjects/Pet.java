@@ -8,8 +8,20 @@ public class Pet {
     private Category category;
     private String name;
     private List photoUrls;
-    private List tags;
+
+    public List<Tags> getTags() {
+        return tags;
+    }
+
+    public void setTags(List<Tags> tags) {
+        this.tags = tags;
+    }
+
+    private List <Tags> tags;
     private String status;
+
+
+
 
     public int getId() {
         return id;
@@ -43,13 +55,7 @@ public class Pet {
         this.photoUrls = photoUrls;
     }
 
-    public List getTags() {
-        return tags;
-    }
 
-    public void setTags(List tags) {
-        this.tags = tags;
-    }
 
     public String getStatus() {
         return status;

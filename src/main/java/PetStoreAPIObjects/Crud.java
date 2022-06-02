@@ -51,17 +51,16 @@ public class Crud {
 
         System.out.println("Pet Name: " + pet.getName());
         System.out.println("Category Name: " + pet.getCategory().getName());
-        List tags = pet.getTags();
 
-        for(int i=0;i<tags.size();i++)
+        List <Tags> tag = pet.getTags();
+
+        for(int i=0;i<tag.size();i++)
         {
-           System.out.println("Tag Test "+tags.get(i));
-
-
-
+          if(tag.get(i).getName().equalsIgnoreCase("Tag-1"))
+          {
+              System.out.println("Id Of Tag: "+ tag.get(i).getId());
+          }
         }
-
-
 
     }
 
