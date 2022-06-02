@@ -15,7 +15,6 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class EAD {
     protected static String resources = "api/v1/EstimatedArrivalDate/city-to-city/upsert";
-
     public String cityToCityUpsertResponse;
 
     public String cityToCityUpsertPayload(int seller,String cargo,String sender, String receiver, int day) {

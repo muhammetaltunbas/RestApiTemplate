@@ -18,9 +18,9 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class MPUpdateHighDeci extends Base {
     protected static String resources = "techops/update-merchant-deci-limit";
-    public String deciUpdateResponse;
-    public String checkMessage;
-    public Boolean checkSuccess;
+    private String deciUpdateResponse;
+    private String checkMessage;
+    private Boolean checkSuccess;
     public String updateMerchantDeciPaylaod(String merchant, int deci) {
         return "{\n" +
                 "    \"merchantId\": \"" + merchant + "\",\n" +
@@ -45,6 +45,7 @@ public class MPUpdateHighDeci extends Base {
     }
 
     public void bulkProcess() throws IOException {
+        int count=0;
         try (
                 Reader reader = Files.newBufferedReader(Paths.get(data.filePathMerchant));
                 CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT
@@ -53,12 +54,13 @@ public class MPUpdateHighDeci extends Base {
                         .withTrim())
         ) {
             for (CSVRecord csvRecord : csvParser) {
+                count ++;
                 String merchant = csvRecord.get(0);
                 int deci = Integer.parseInt(csvRecord.get(1));
                 if (updateMerchantDeci(merchant, deci))
-                    System.out.println("Success: MerchantID: " + merchant + " Deci: " + deci);
+                    System.out.println(count+ "- Success: MerchantID: " + merchant + " Deci: " + deci);
                 else
-                    System.out.println("Failed!: MerchantID:  " + merchant + " Deci: " + deci + "- " + checkMessage);
+                    System.out.println(count+" - Failed!: MerchantID:  " + merchant + " Deci: " + deci + "- " + checkMessage);
             }
         }
     }

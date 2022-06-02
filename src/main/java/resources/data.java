@@ -4,15 +4,15 @@ public class data {
     public static final String param1 = "key";
     public static final String param2 = "qaclick123";
     public static final String param3 = "ID";
-    public static final String demoBaseUri = "https://rahulshettyacademy.com";
+    //public static final String baseUri = "https://rahulshettyacademy.com";
     public static final String demo2BaseUri = "http://216.10.245.166";
     //public static final String baseUri = "http://shipping.qa.hepsiburada.com";
     //public static final String baseUri = "http://shipping-ops.hepsiburada.com";
-    public static final String baseUri = "http://shipping-ops.qa.hepsiburada.com";
+    //public static final String baseUri = "http://shipping-ops.qa.hepsiburada.com";
     public static int expectedStatus = 200;
     public static final String filePath = "./CalculatedCityToCityExpectedArrivalDate_V2.csv";
     public static final String filePathMerchant = "./merchantDeci.csv";
-
+    public static final String baseUri ="https://petstore.swagger.io/";
     public static String mockData() {
         return "{\n" +
                 "  \"dashboard\": {\n" +

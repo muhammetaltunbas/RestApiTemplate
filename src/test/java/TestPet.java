@@ -1,4 +1,4 @@
-import ShippingAPIObjects.MPUpdateHighDeci;
+import PetStoreAPIObjects.Crud;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -6,24 +6,21 @@ import resources.Base;
 
 import java.io.IOException;
 
-
-public class TestBulkMPHighDeci extends Base {
-    public MPUpdateHighDeci mpu = new MPUpdateHighDeci();
-
+public class TestPet extends Base {
+    public Crud cr= new Crud();
     @BeforeTest
     public void beforeTest() {
         initializeTest();
     }
 
     @Test
-    public void startBulkProcess() throws IOException {
-        mpu.bulkProcess();
+    public void insertPet() throws IOException {
+        cr.insertPet();
     }
-    //Next step is: Verify on DB
+
 
     @AfterTest
     public void printConsole() {
         System.out.println("Test Bitti");
     }
-
 }

@@ -21,7 +21,7 @@ public class addPlace extends Base {
                 "        \"lng\": 29.100695046035877\n" +
                 "    },\n" +
                 "    \"accuracy\": 10,\n" +
-                "    \"name\": \"Ümraniye Ünal Eczanesi\",\n" +
+                "    \"name\": \"Ümraniye Kzn-2 Eczanesi\",\n" +
                 "    \"phone_number\": \"(+91) 983 893 3937\",\n" +
                 "    \"address\": \"Ümraniye, Küçüksu Caddesi\",\n" +
                 "    \"types\": [\n" +
@@ -37,7 +37,9 @@ public class addPlace extends Base {
         addApiResponse = given().log().all().queryParam(data.param1, data.param2).header("Content-Type", "application/json")
                 .body(addPlace())
                 .when().post(resources)
-                .then().log().all().assertThat().statusCode(200).body("status", equalTo("OK")).header("Server", "Apache/2.4.18 (Ubuntu)").extract()
+                .then().log().all().assertThat().statusCode(200).body("status", equalTo("OK"))
+                .header("Server", "Apache/2.4.41 (Ubuntu)")
+                .extract()
                 .response().asString();
     }
 
