@@ -1,0 +1,2312 @@
+{
+  "TownRestrictions": [
+    {
+      "TownId": 1101,
+      "TownName": "ABANA"
+    },
+    {
+      "TownId": 1103,
+      "TownName": "ADALAR"
+    },
+    {
+      "TownId": 1107,
+      "TownName": "AFŞİN"
+    },
+    {
+      "TownId": 1109,
+      "TownName": "AĞLASUN"
+    },
+    {
+      "TownId": 1110,
+      "TownName": "AĞIN"
+    },
+    {
+      "TownId": 1114,
+      "TownName": "AKÇADAĞ"
+    },
+    {
+      "TownId": 1115,
+      "TownName": "AKÇAKALE"
+    },
+    {
+      "TownId": 1116,
+      "TownName": "AKÇAKOCA"
+    },
+    {
+      "TownId": 1117,
+      "TownName": "AKDAĞMADENİ"
+    },
+    {
+      "TownId": 1119,
+      "TownName": "AKKUŞ"
+    },
+    {
+      "TownId": 1121,
+      "TownName": "AKSEKİ"
+    },
+    {
+      "TownId": 1125,
+      "TownName": "ALAÇAM"
+    },
+    {
+      "TownId": 1129,
+      "TownName": "ALMUS"
+    },
+    {
+      "TownId": 1132,
+      "TownName": "ALTINTAŞ"
+    },
+    {
+      "TownId": 1133,
+      "TownName": "ALUCRA"
+    },
+    {
+      "TownId": 1135,
+      "TownName": "ANAMUR"
+    },
+    {
+      "TownId": 1136,
+      "TownName": "ANDIRIN"
+    },
+    {
+      "TownId": 1138,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1139,
+      "TownName": "ARABAN"
+    },
+    {
+      "TownId": 1140,
+      "TownName": "ARAÇ"
+    },
+    {
+      "TownId": 1142,
+      "TownName": "ARALIK"
+    },
+    {
+      "TownId": 1143,
+      "TownName": "ARAPGİR"
+    },
+    {
+      "TownId": 1145,
+      "TownName": "ARDANUÇ"
+    },
+    {
+      "TownId": 1148,
+      "TownName": "ARGUVAN"
+    },
+    {
+      "TownId": 1149,
+      "TownName": "ARPAÇAY"
+    },
+    {
+      "TownId": 1151,
+      "TownName": "ARTOVA"
+    },
+    {
+      "TownId": 1153,
+      "TownName": "AŞKALE"
+    },
+    {
+      "TownId": 1154,
+      "TownName": "ATABEY"
+    },
+    {
+      "TownId": 1156,
+      "TownName": "AYANCIK"
+    },
+    {
+      "TownId": 1157,
+      "TownName": "AYAŞ"
+    },
+    {
+      "TownId": 1158,
+      "TownName": "AYBASTI"
+    },
+    {
+      "TownId": 1159,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1162,
+      "TownName": "AZDAVAY"
+    },
+    {
+      "TownId": 1167,
+      "TownName": "BALA"
+    },
+    {
+      "TownId": 1168,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1169,
+      "TownName": "BALYA"
+    },
+    {
+      "TownId": 1170,
+      "TownName": "BANAZ"
+    },
+    {
+      "TownId": 1173,
+      "TownName": "BASKİL"
+    },
+    {
+      "TownId": 1175,
+      "TownName": "BAŞKALE"
+    },
+    {
+      "TownId": 1177,
+      "TownName": "BAYAT"
+    },
+    {
+      "TownId": 1179,
+      "TownName": "BAYKAN"
+    },
+    {
+      "TownId": 1187,
+      "TownName": "BEYPAZARI"
+    },
+    {
+      "TownId": 1188,
+      "TownName": "BEYŞEHİR"
+    },
+    {
+      "TownId": 1189,
+      "TownName": "BEYTÜŞŞEBAP"
+    },
+    {
+      "TownId": 1191,
+      "TownName": "BİGADİÇ"
+    },
+    {
+      "TownId": 1198,
+      "TownName": "BOĞAZLIYAN"
+    },
+    {
+      "TownId": 1204,
+      "TownName": "BOYABAT"
+    },
+    {
+      "TownId": 1205,
+      "TownName": "BOZCAADA"
+    },
+    {
+      "TownId": 1206,
+      "TownName": "BOZDOĞAN"
+    },
+    {
+      "TownId": 1207,
+      "TownName": "BOZKIR"
+    },
+    {
+      "TownId": 1208,
+      "TownName": "BOZKURT"
+    },
+    {
+      "TownId": 1209,
+      "TownName": "BOZOVA"
+    },
+    {
+      "TownId": 1213,
+      "TownName": "BULANIK"
+    },
+    {
+      "TownId": 1218,
+      "TownName": "BÜNYAN"
+    },
+    {
+      "TownId": 1221,
+      "TownName": "CİDE"
+    },
+    {
+      "TownId": 1222,
+      "TownName": "CİHANBEYLİ"
+    },
+    {
+      "TownId": 1224,
+      "TownName": "ÇAL"
+    },
+    {
+      "TownId": 1225,
+      "TownName": "ÇAMARDI"
+    },
+    {
+      "TownId": 1226,
+      "TownName": "ÇAMELİ"
+    },
+    {
+      "TownId": 1227,
+      "TownName": "ÇAMLIDERE"
+    },
+    {
+      "TownId": 1228,
+      "TownName": "ÇAMLIHEMŞİN"
+    },
+    {
+      "TownId": 1233,
+      "TownName": "ÇARDAK"
+    },
+    {
+      "TownId": 1235,
+      "TownName": "ÇAT"
+    },
+    {
+      "TownId": 1236,
+      "TownName": "ÇATAK"
+    },
+    {
+      "TownId": 1238,
+      "TownName": "ÇATALZEYTİN"
+    },
+    {
+      "TownId": 1242,
+      "TownName": "ÇAYIRALAN"
+    },
+    {
+      "TownId": 1243,
+      "TownName": "ÇAYIRLI"
+    },
+    {
+      "TownId": 1244,
+      "TownName": "ÇAYKARA"
+    },
+    {
+      "TownId": 1245,
+      "TownName": "ÇEKEREK"
+    },
+    {
+      "TownId": 1247,
+      "TownName": "ÇEMİŞGEZEK"
+    },
+    {
+      "TownId": 1248,
+      "TownName": "ÇERKEŞ"
+    },
+    {
+      "TownId": 1252,
+      "TownName": "ÇILDIR"
+    },
+    {
+      "TownId": 1253,
+      "TownName": "ÇINAR"
+    },
+    {
+      "TownId": 1254,
+      "TownName": "ÇİÇEKDAĞI"
+    },
+    {
+      "TownId": 1255,
+      "TownName": "ÇİFTELER"
+    },
+    {
+      "TownId": 1260,
+      "TownName": "ÇUBUK"
+    },
+    {
+      "TownId": 1261,
+      "TownName": "ÇUKURCA"
+    },
+    {
+      "TownId": 1262,
+      "TownName": "ÇUMRA"
+    },
+    {
+      "TownId": 1263,
+      "TownName": "ÇÜNGÜŞ"
+    },
+    {
+      "TownId": 1264,
+      "TownName": "DADAY"
+    },
+    {
+      "TownId": 1265,
+      "TownName": "DARENDE"
+    },
+    {
+      "TownId": 1267,
+      "TownName": "DAZKIRI"
+    },
+    {
+      "TownId": 1268,
+      "TownName": "DELİCE"
+    },
+    {
+      "TownId": 1269,
+      "TownName": "DEMİRCİ"
+    },
+    {
+      "TownId": 1270,
+      "TownName": "DEMİRKÖY"
+    },
+    {
+      "TownId": 1271,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1272,
+      "TownName": "DERELİ"
+    },
+    {
+      "TownId": 1273,
+      "TownName": "DERİK"
+    },
+    {
+      "TownId": 1274,
+      "TownName": "DERİNKUYU"
+    },
+    {
+      "TownId": 1275,
+      "TownName": "DEVELİ"
+    },
+    {
+      "TownId": 1277,
+      "TownName": "DEVREKANİ"
+    },
+    {
+      "TownId": 1278,
+      "TownName": "DİCLE"
+    },
+    {
+      "TownId": 1279,
+      "TownName": "DİGOR"
+    },
+    {
+      "TownId": 1282,
+      "TownName": "DİVRİĞİ"
+    },
+    {
+      "TownId": 1283,
+      "TownName": "DİYADİN"
+    },
+    {
+      "TownId": 1284,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1285,
+      "TownName": "DOĞANHİSAR"
+    },
+    {
+      "TownId": 1286,
+      "TownName": "DOĞANŞEHİR"
+    },
+    {
+      "TownId": 1288,
+      "TownName": "DOMANİÇ"
+    },
+    {
+      "TownId": 1290,
+      "TownName": "DURAĞAN"
+    },
+    {
+      "TownId": 1291,
+      "TownName": "DURSUNBEY"
+    },
+    {
+      "TownId": 1293,
+      "TownName": "ECEABAT"
+    },
+    {
+      "TownId": 1296,
+      "TownName": "EFLANİ"
+    },
+    {
+      "TownId": 1297,
+      "TownName": "EĞİRDİR"
+    },
+    {
+      "TownId": 1299,
+      "TownName": "ELBİSTAN"
+    },
+    {
+      "TownId": 1300,
+      "TownName": "ELDİVAN"
+    },
+    {
+      "TownId": 1302,
+      "TownName": "ELMADAĞ"
+    },
+    {
+      "TownId": 1303,
+      "TownName": "ELMALI"
+    },
+    {
+      "TownId": 1306,
+      "TownName": "EMİRDAĞ"
+    },
+    {
+      "TownId": 1308,
+      "TownName": "ERBAA"
+    },
+    {
+      "TownId": 1309,
+      "TownName": "ERCİŞ"
+    },
+    {
+      "TownId": 1310,
+      "TownName": "ERDEK"
+    },
+    {
+      "TownId": 1312,
+      "TownName": "EREĞLİ"
+    },
+    {
+      "TownId": 1314,
+      "TownName": "ERFELEK"
+    },
+    {
+      "TownId": 1316,
+      "TownName": "ERMENEK"
+    },
+    {
+      "TownId": 1317,
+      "TownName": "ERUH"
+    },
+    {
+      "TownId": 1319,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1320,
+      "TownName": "ESPİYE"
+    },
+    {
+      "TownId": 1321,
+      "TownName": "ESKİPAZAR"
+    },
+    {
+      "TownId": 1322,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1323,
+      "TownName": "EŞME"
+    },
+    {
+      "TownId": 1324,
+      "TownName": "EYNESİL"
+    },
+    {
+      "TownId": 1329,
+      "TownName": "FEKE"
+    },
+    {
+      "TownId": 1330,
+      "TownName": "FELAHİYE"
+    },
+    {
+      "TownId": 1332,
+      "TownName": "FINDIKLI"
+    },
+    {
+      "TownId": 1339,
+      "TownName": "GEDİZ"
+    },
+    {
+      "TownId": 1340,
+      "TownName": "GELİBOLU"
+    },
+    {
+      "TownId": 1341,
+      "TownName": "GELENDOST"
+    },
+    {
+      "TownId": 1342,
+      "TownName": "GEMEREK"
+    },
+    {
+      "TownId": 1344,
+      "TownName": "GENÇ"
+    },
+    {
+      "TownId": 1347,
+      "TownName": "GERGER"
+    },
+    {
+      "TownId": 1349,
+      "TownName": "GERZE"
+    },
+    {
+      "TownId": 1350,
+      "TownName": "GEVAŞ"
+    },
+    {
+      "TownId": 1353,
+      "TownName": "GÖKSUN"
+    },
+    {
+      "TownId": 1356,
+      "TownName": "GÖLE"
+    },
+    {
+      "TownId": 1357,
+      "TownName": "GÖLHİSAR"
+    },
+    {
+      "TownId": 1358,
+      "TownName": "GÖLKÖY"
+    },
+    {
+      "TownId": 1359,
+      "TownName": "GÖLPAZARI"
+    },
+    {
+      "TownId": 1360,
+      "TownName": "GÖNEN"
+    },
+    {
+      "TownId": 1361,
+      "TownName": "GÖRELE"
+    },
+    {
+      "TownId": 1362,
+      "TownName": "GÖRDES"
+    },
+    {
+      "TownId": 1363,
+      "TownName": "GÖYNÜCEK"
+    },
+    {
+      "TownId": 1364,
+      "TownName": "GÖYNÜK"
+    },
+    {
+      "TownId": 1365,
+      "TownName": "GÜDÜL"
+    },
+    {
+      "TownId": 1366,
+      "TownName": "GÜLNAR"
+    },
+    {
+      "TownId": 1367,
+      "TownName": "GÜLŞEHİR"
+    },
+    {
+      "TownId": 1370,
+      "TownName": "GÜNDOĞMUŞ"
+    },
+    {
+      "TownId": 1371,
+      "TownName": "GÜNEY"
+    },
+    {
+      "TownId": 1372,
+      "TownName": "GÜRPINAR"
+    },
+    {
+      "TownId": 1373,
+      "TownName": "GÜRÜN"
+    },
+    {
+      "TownId": 1374,
+      "TownName": "HACIBEKTAŞ"
+    },
+    {
+      "TownId": 1375,
+      "TownName": "HADİM"
+    },
+    {
+      "TownId": 1376,
+      "TownName": "HAFİK"
+    },
+    {
+      "TownId": 1378,
+      "TownName": "HALFETİ"
+    },
+    {
+      "TownId": 1379,
+      "TownName": "HAMUR"
+    },
+    {
+      "TownId": 1380,
+      "TownName": "HANAK"
+    },
+    {
+      "TownId": 1381,
+      "TownName": "HANİ"
+    },
+    {
+      "TownId": 1383,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1384,
+      "TownName": "HAVRAN"
+    },
+    {
+      "TownId": 1387,
+      "TownName": "HAYMANA"
+    },
+    {
+      "TownId": 1388,
+      "TownName": "HAYRABOLU"
+    },
+    {
+      "TownId": 1389,
+      "TownName": "HAZRO"
+    },
+    {
+      "TownId": 1390,
+      "TownName": "HEKİMHAN"
+    },
+    {
+      "TownId": 1392,
+      "TownName": "HINIS"
+    },
+    {
+      "TownId": 1396,
+      "TownName": "HORASAN"
+    },
+    {
+      "TownId": 1397,
+      "TownName": "HOZAT"
+    },
+    {
+      "TownId": 1399,
+      "TownName": "ILGAZ"
+    },
+    {
+      "TownId": 1400,
+      "TownName": "ILGIN"
+    },
+    {
+      "TownId": 1402,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1403,
+      "TownName": "İDİL"
+    },
+    {
+      "TownId": 1405,
+      "TownName": "İKİZDERE"
+    },
+    {
+      "TownId": 1406,
+      "TownName": "İLİÇ"
+    },
+    {
+      "TownId": 1407,
+      "TownName": "İMRANLI"
+    },
+    {
+      "TownId": 1408,
+      "TownName": "GÖKÇEADA"
+    },
+    {
+      "TownId": 1409,
+      "TownName": "İNCESU"
+    },
+    {
+      "TownId": 1410,
+      "TownName": "İNEBOLU"
+    },
+    {
+      "TownId": 1414,
+      "TownName": "İSKİLİP"
+    },
+    {
+      "TownId": 1415,
+      "TownName": "İSLAHİYE"
+    },
+    {
+      "TownId": 1416,
+      "TownName": "İSPİR"
+    },
+    {
+      "TownId": 1418,
+      "TownName": "İVRİNDİ"
+    },
+    {
+      "TownId": 1422,
+      "TownName": "KADINHANI"
+    },
+    {
+      "TownId": 1424,
+      "TownName": "KAĞIZMAN"
+    },
+    {
+      "TownId": 1426,
+      "TownName": "KALE"
+    },
+    {
+      "TownId": 1427,
+      "TownName": "KALECİK"
+    },
+    {
+      "TownId": 1428,
+      "TownName": "KALKANDERE"
+    },
+    {
+      "TownId": 1429,
+      "TownName": "KAMAN"
+    },
+    {
+      "TownId": 1431,
+      "TownName": "KANGAL"
+    },
+    {
+      "TownId": 1435,
+      "TownName": "KARACASU"
+    },
+    {
+      "TownId": 1436,
+      "TownName": "KARAHALLI"
+    },
+    {
+      "TownId": 1437,
+      "TownName": "KARAİSALI"
+    },
+    {
+      "TownId": 1441,
+      "TownName": "KARAPINAR"
+    },
+    {
+      "TownId": 1443,
+      "TownName": "KARATAŞ"
+    },
+    {
+      "TownId": 1444,
+      "TownName": "KARAYAZI"
+    },
+    {
+      "TownId": 1445,
+      "TownName": "KARGI"
+    },
+    {
+      "TownId": 1446,
+      "TownName": "KARLIOVA"
+    },
+    {
+      "TownId": 1451,
+      "TownName": "KAŞ"
+    },
+    {
+      "TownId": 1452,
+      "TownName": "KAVAK"
+    },
+    {
+      "TownId": 1455,
+      "TownName": "KEBAN"
+    },
+    {
+      "TownId": 1457,
+      "TownName": "KELES"
+    },
+    {
+      "TownId": 1458,
+      "TownName": "KELKİT"
+    },
+    {
+      "TownId": 1459,
+      "TownName": "KEMAH"
+    },
+    {
+      "TownId": 1460,
+      "TownName": "KEMALİYE"
+    },
+    {
+      "TownId": 1462,
+      "TownName": "KEPSUT"
+    },
+    {
+      "TownId": 1463,
+      "TownName": "KESKİN"
+    },
+    {
+      "TownId": 1465,
+      "TownName": "KEŞAP"
+    },
+    {
+      "TownId": 1466,
+      "TownName": "KIBRISCIK"
+    },
+    {
+      "TownId": 1467,
+      "TownName": "KINIK"
+    },
+    {
+      "TownId": 1470,
+      "TownName": "KIRKAĞAÇ"
+    },
+    {
+      "TownId": 1473,
+      "TownName": "KIZILCAHAMAM"
+    },
+    {
+      "TownId": 1475,
+      "TownName": "KİĞI"
+    },
+    {
+      "TownId": 1478,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1479,
+      "TownName": "KOÇARLI"
+    },
+    {
+      "TownId": 1480,
+      "TownName": "KOFÇAZ"
+    },
+    {
+      "TownId": 1482,
+      "TownName": "KORGAN"
+    },
+    {
+      "TownId": 1483,
+      "TownName": "KORKUTELİ"
+    },
+    {
+      "TownId": 1484,
+      "TownName": "KOYULHİSAR"
+    },
+    {
+      "TownId": 1485,
+      "TownName": "KOZAKLI"
+    },
+    {
+      "TownId": 1490,
+      "TownName": "KULP"
+    },
+    {
+      "TownId": 1491,
+      "TownName": "KULU"
+    },
+    {
+      "TownId": 1493,
+      "TownName": "KUMRU"
+    },
+    {
+      "TownId": 1494,
+      "TownName": "KURŞUNLU"
+    },
+    {
+      "TownId": 1495,
+      "TownName": "KURTALAN"
+    },
+    {
+      "TownId": 1498,
+      "TownName": "KUYUCAK"
+    },
+    {
+      "TownId": 1499,
+      "TownName": "KÜRE"
+    },
+    {
+      "TownId": 1501,
+      "TownName": "LADİK"
+    },
+    {
+      "TownId": 1503,
+      "TownName": "LAPSEKİ"
+    },
+    {
+      "TownId": 1504,
+      "TownName": "LİCE"
+    },
+    {
+      "TownId": 1506,
+      "TownName": "MADEN"
+    },
+    {
+      "TownId": 1507,
+      "TownName": "MAÇKA"
+    },
+    {
+      "TownId": 1508,
+      "TownName": "MAHMUDİYE"
+    },
+    {
+      "TownId": 1509,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1510,
+      "TownName": "MALAZGİRT"
+    },
+    {
+      "TownId": 1514,
+      "TownName": "MANYAS"
+    },
+    {
+      "TownId": 1515,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1516,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1518,
+      "TownName": "MAZGİRT"
+    },
+    {
+      "TownId": 1519,
+      "TownName": "MAZIDAĞI"
+    },
+    {
+      "TownId": 1520,
+      "TownName": "MECİTÖZÜ"
+    },
+    {
+      "TownId": 1522,
+      "TownName": "MENGEN"
+    },
+    {
+      "TownId": 1525,
+      "TownName": "MESUDİYE"
+    },
+    {
+      "TownId": 1527,
+      "TownName": "MİHALIÇÇIK"
+    },
+    {
+      "TownId": 1529,
+      "TownName": "MUCUR"
+    },
+    {
+      "TownId": 1531,
+      "TownName": "MUDURNU"
+    },
+    {
+      "TownId": 1532,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1533,
+      "TownName": "MURADİYE"
+    },
+    {
+      "TownId": 1536,
+      "TownName": "MUT"
+    },
+    {
+      "TownId": 1537,
+      "TownName": "MUTKİ"
+    },
+    {
+      "TownId": 1539,
+      "TownName": "NALLIHAN"
+    },
+    {
+      "TownId": 1540,
+      "TownName": "NARMAN"
+    },
+    {
+      "TownId": 1541,
+      "TownName": "NAZIMİYE"
+    },
+    {
+      "TownId": 1545,
+      "TownName": "NİKSAR"
+    },
+    {
+      "TownId": 1550,
+      "TownName": "OLTU"
+    },
+    {
+      "TownId": 1551,
+      "TownName": "OLUR"
+    },
+    {
+      "TownId": 1552,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1553,
+      "TownName": "ORHANELİ"
+    },
+    {
+      "TownId": 1555,
+      "TownName": "ORTA"
+    },
+    {
+      "TownId": 1556,
+      "TownName": "ORTAKÖY"
+    },
+    {
+      "TownId": 1557,
+      "TownName": "ORTAKÖY"
+    },
+    {
+      "TownId": 1559,
+      "TownName": "OSMANELİ"
+    },
+    {
+      "TownId": 1561,
+      "TownName": "OVACIK"
+    },
+    {
+      "TownId": 1562,
+      "TownName": "OVACIK"
+    },
+    {
+      "TownId": 1564,
+      "TownName": "ÖMERLİ"
+    },
+    {
+      "TownId": 1565,
+      "TownName": "ÖZALP"
+    },
+    {
+      "TownId": 1567,
+      "TownName": "PASİNLER"
+    },
+    {
+      "TownId": 1568,
+      "TownName": "PATNOS"
+    },
+    {
+      "TownId": 1570,
+      "TownName": "PAZARCIK"
+    },
+    {
+      "TownId": 1571,
+      "TownName": "PAZARYERİ"
+    },
+    {
+      "TownId": 1572,
+      "TownName": "PEHLİVANKÖY"
+    },
+    {
+      "TownId": 1573,
+      "TownName": "PERŞEMBE"
+    },
+    {
+      "TownId": 1574,
+      "TownName": "PERTEK"
+    },
+    {
+      "TownId": 1575,
+      "TownName": "PERVARİ"
+    },
+    {
+      "TownId": 1576,
+      "TownName": "PINARBAŞI"
+    },
+    {
+      "TownId": 1578,
+      "TownName": "POLATLI"
+    },
+    {
+      "TownId": 1579,
+      "TownName": "POSOF"
+    },
+    {
+      "TownId": 1580,
+      "TownName": "POZANTI"
+    },
+    {
+      "TownId": 1581,
+      "TownName": "PÜLÜMÜR"
+    },
+    {
+      "TownId": 1582,
+      "TownName": "PÜTÜRGE"
+    },
+    {
+      "TownId": 1583,
+      "TownName": "REFAHİYE"
+    },
+    {
+      "TownId": 1584,
+      "TownName": "REŞADİYE"
+    },
+    {
+      "TownId": 1585,
+      "TownName": "REYHANLI"
+    },
+    {
+      "TownId": 1588,
+      "TownName": "SAİMBEYLİ"
+    },
+    {
+      "TownId": 1589,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1592,
+      "TownName": "SAMSAT"
+    },
+    {
+      "TownId": 1593,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1598,
+      "TownName": "SARAYÖNÜ"
+    },
+    {
+      "TownId": 1599,
+      "TownName": "SARICAKAYA"
+    },
+    {
+      "TownId": 1600,
+      "TownName": "SARIGÖL"
+    },
+    {
+      "TownId": 1601,
+      "TownName": "SARIKAMIŞ"
+    },
+    {
+      "TownId": 1602,
+      "TownName": "SARIKAYA"
+    },
+    {
+      "TownId": 1603,
+      "TownName": "SARIOĞLAN"
+    },
+    {
+      "TownId": 1605,
+      "TownName": "SARIZ"
+    },
+    {
+      "TownId": 1608,
+      "TownName": "SAVAŞTEPE"
+    },
+    {
+      "TownId": 1609,
+      "TownName": "SAVUR"
+    },
+    {
+      "TownId": 1610,
+      "TownName": "SEBEN"
+    },
+    {
+      "TownId": 1613,
+      "TownName": "SELENDİ"
+    },
+    {
+      "TownId": 1614,
+      "TownName": "SELİM"
+    },
+    {
+      "TownId": 1615,
+      "TownName": "SENİRKENT"
+    },
+    {
+      "TownId": 1617,
+      "TownName": "SEYDİŞEHİR"
+    },
+    {
+      "TownId": 1618,
+      "TownName": "SEYİTGAZİ"
+    },
+    {
+      "TownId": 1619,
+      "TownName": "SINDIRGI"
+    },
+    {
+      "TownId": 1624,
+      "TownName": "SİLVAN"
+    },
+    {
+      "TownId": 1625,
+      "TownName": "SİMAV"
+    },
+    {
+      "TownId": 1626,
+      "TownName": "SİNANPAŞA"
+    },
+    {
+      "TownId": 1629,
+      "TownName": "SİVASLI"
+    },
+    {
+      "TownId": 1631,
+      "TownName": "SİVRİCE"
+    },
+    {
+      "TownId": 1632,
+      "TownName": "SİVRİHİSAR"
+    },
+    {
+      "TownId": 1633,
+      "TownName": "SOLHAN"
+    },
+    {
+      "TownId": 1636,
+      "TownName": "SÖĞÜT"
+    },
+    {
+      "TownId": 1638,
+      "TownName": "SULAKYURT"
+    },
+    {
+      "TownId": 1639,
+      "TownName": "SULTANDAĞI"
+    },
+    {
+      "TownId": 1644,
+      "TownName": "SUSURLUK"
+    },
+    {
+      "TownId": 1645,
+      "TownName": "SUSUZ"
+    },
+    {
+      "TownId": 1646,
+      "TownName": "SUŞEHRİ"
+    },
+    {
+      "TownId": 1647,
+      "TownName": "SÜRMENE"
+    },
+    {
+      "TownId": 1648,
+      "TownName": "SÜTÇÜLER"
+    },
+    {
+      "TownId": 1649,
+      "TownName": "ŞABANÖZÜ"
+    },
+    {
+      "TownId": 1650,
+      "TownName": "ŞARKIŞLA"
+    },
+    {
+      "TownId": 1651,
+      "TownName": "ŞARKİKARAAĞAÇ"
+    },
+    {
+      "TownId": 1652,
+      "TownName": "ŞARKÖY"
+    },
+    {
+      "TownId": 1653,
+      "TownName": "ŞAVŞAT"
+    },
+    {
+      "TownId": 1654,
+      "TownName": "ŞEBİNKARAHİSAR"
+    },
+    {
+      "TownId": 1655,
+      "TownName": "ŞEFAATLİ"
+    },
+    {
+      "TownId": 1656,
+      "TownName": "ŞEMDİNLİ"
+    },
+    {
+      "TownId": 1657,
+      "TownName": "ŞENKAYA"
+    },
+    {
+      "TownId": 1658,
+      "TownName": "ŞEREFLİKOÇHİSAR"
+    },
+    {
+      "TownId": 1660,
+      "TownName": "ŞİRAN"
+    },
+    {
+      "TownId": 1662,
+      "TownName": "ŞİRVAN"
+    },
+    {
+      "TownId": 1666,
+      "TownName": "TAŞKÖPRÜ"
+    },
+    {
+      "TownId": 1667,
+      "TownName": "TAŞLIÇAY"
+    },
+    {
+      "TownId": 1668,
+      "TownName": "TAŞOVA"
+    },
+    {
+      "TownId": 1672,
+      "TownName": "TEFENNİ"
+    },
+    {
+      "TownId": 1673,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1674,
+      "TownName": "TEKMAN"
+    },
+    {
+      "TownId": 1675,
+      "TownName": "TERCAN"
+    },
+    {
+      "TownId": 1678,
+      "TownName": "TİREBOLU"
+    },
+    {
+      "TownId": 1680,
+      "TownName": "TOMARZA"
+    },
+    {
+      "TownId": 1681,
+      "TownName": "TONYA"
+    },
+    {
+      "TownId": 1683,
+      "TownName": "TORTUM"
+    },
+    {
+      "TownId": 1684,
+      "TownName": "TORUL"
+    },
+    {
+      "TownId": 1685,
+      "TownName": "TOSYA"
+    },
+    {
+      "TownId": 1686,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1687,
+      "TownName": "TUFANBEYLİ"
+    },
+    {
+      "TownId": 1691,
+      "TownName": "TUTAK"
+    },
+    {
+      "TownId": 1692,
+      "TownName": "TUZLUCA"
+    },
+    {
+      "TownId": 1693,
+      "TownName": "TÜRKELİ"
+    },
+    {
+      "TownId": 1694,
+      "TownName": "TÜRKOĞLU"
+    },
+    {
+      "TownId": 1696,
+      "TownName": "ULUBEY"
+    },
+    {
+      "TownId": 1697,
+      "TownName": "ULUBEY"
+    },
+    {
+      "TownId": 1698,
+      "TownName": "ULUDERE"
+    },
+    {
+      "TownId": 1699,
+      "TownName": "ULUBORLU"
+    },
+    {
+      "TownId": 1700,
+      "TownName": "ULUKIŞLA"
+    },
+    {
+      "TownId": 1701,
+      "TownName": "ULUS"
+    },
+    {
+      "TownId": 1702,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1710,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1711,
+      "TownName": "VARTO"
+    },
+    {
+      "TownId": 1714,
+      "TownName": "VİZE"
+    },
+    {
+      "TownId": 1715,
+      "TownName": "YAHYALI"
+    },
+    {
+      "TownId": 1718,
+      "TownName": "YAPRAKLI"
+    },
+    {
+      "TownId": 1720,
+      "TownName": "YAVUZELİ"
+    },
+    {
+      "TownId": 1721,
+      "TownName": "YAYLADAĞI"
+    },
+    {
+      "TownId": 1727,
+      "TownName": "YEŞİLHİSAR"
+    },
+    {
+      "TownId": 1728,
+      "TownName": "YEŞİLOVA"
+    },
+    {
+      "TownId": 1730,
+      "TownName": "YIĞILCA"
+    },
+    {
+      "TownId": 1731,
+      "TownName": "YILDIZELİ"
+    },
+    {
+      "TownId": 1734,
+      "TownName": "YUMURTALIK"
+    },
+    {
+      "TownId": 1735,
+      "TownName": "YUNAK"
+    },
+    {
+      "TownId": 1736,
+      "TownName": "YUSUFELİ"
+    },
+    {
+      "TownId": 1738,
+      "TownName": "ZARA"
+    },
+    {
+      "TownId": 1750,
+      "TownName": "ADAKLI"
+    },
+    {
+      "TownId": 1751,
+      "TownName": "AHMETLİ"
+    },
+    {
+      "TownId": 1752,
+      "TownName": "AKKIŞLA"
+    },
+    {
+      "TownId": 1753,
+      "TownName": "AKÖREN"
+    },
+    {
+      "TownId": 1754,
+      "TownName": "AKPINAR"
+    },
+    {
+      "TownId": 1755,
+      "TownName": "AKSU"
+    },
+    {
+      "TownId": 1756,
+      "TownName": "AKYAKA"
+    },
+    {
+      "TownId": 1757,
+      "TownName": "ALADAĞ"
+    },
+    {
+      "TownId": 1759,
+      "TownName": "ALPU"
+    },
+    {
+      "TownId": 1760,
+      "TownName": "ALTINEKİN"
+    },
+    {
+      "TownId": 1762,
+      "TownName": "ARICAK"
+    },
+    {
+      "TownId": 1763,
+      "TownName": "ASARCIK"
+    },
+    {
+      "TownId": 1764,
+      "TownName": "ASLANAPA"
+    },
+    {
+      "TownId": 1765,
+      "TownName": "ATKARACALAR"
+    },
+    {
+      "TownId": 1766,
+      "TownName": "AYDINCIK"
+    },
+    {
+      "TownId": 1767,
+      "TownName": "AYDINTEPE"
+    },
+    {
+      "TownId": 1768,
+      "TownName": "AYRANCI"
+    },
+    {
+      "TownId": 1769,
+      "TownName": "BABADAĞ"
+    },
+    {
+      "TownId": 1770,
+      "TownName": "BAHÇESARAY"
+    },
+    {
+      "TownId": 1771,
+      "TownName": "BAŞMAKÇI"
+    },
+    {
+      "TownId": 1773,
+      "TownName": "BAYAT"
+    },
+    {
+      "TownId": 1774,
+      "TownName": "BEKİLLİ"
+    },
+    {
+      "TownId": 1777,
+      "TownName": "BEYLİKOVA"
+    },
+    {
+      "TownId": 1778,
+      "TownName": "BOĞAZKALE"
+    },
+    {
+      "TownId": 1779,
+      "TownName": "BOZYAZI"
+    },
+    {
+      "TownId": 1781,
+      "TownName": "BUHARKENT"
+    },
+    {
+      "TownId": 1783,
+      "TownName": "BÜYÜKORHAN"
+    },
+    {
+      "TownId": 1784,
+      "TownName": "CUMAYERİ"
+    },
+    {
+      "TownId": 1785,
+      "TownName": "ÇAĞLAYANCERİT"
+    },
+    {
+      "TownId": 1786,
+      "TownName": "ÇALDIRAN"
+    },
+    {
+      "TownId": 1787,
+      "TownName": "DARGEÇİT"
+    },
+    {
+      "TownId": 1788,
+      "TownName": "DEMİRÖZÜ"
+    },
+    {
+      "TownId": 1789,
+      "TownName": "DEREBUCAK"
+    },
+    {
+      "TownId": 1790,
+      "TownName": "DUMLUPINAR"
+    },
+    {
+      "TownId": 1791,
+      "TownName": "EĞİL"
+    },
+    {
+      "TownId": 1793,
+      "TownName": "GÖLMARMARA"
+    },
+    {
+      "TownId": 1794,
+      "TownName": "GÖLYAKA"
+    },
+    {
+      "TownId": 1795,
+      "TownName": "GÜLYALI"
+    },
+    {
+      "TownId": 1796,
+      "TownName": "GÜNEYSU"
+    },
+    {
+      "TownId": 1797,
+      "TownName": "GÜRGENTEPE"
+    },
+    {
+      "TownId": 1799,
+      "TownName": "HARMANCIK"
+    },
+    {
+      "TownId": 1800,
+      "TownName": "HARRAN"
+    },
+    {
+      "TownId": 1801,
+      "TownName": "HASKÖY"
+    },
+    {
+      "TownId": 1804,
+      "TownName": "HÜYÜK"
+    },
+    {
+      "TownId": 1805,
+      "TownName": "İHSANGAZİ"
+    },
+    {
+      "TownId": 1808,
+      "TownName": "İNÖNÜ"
+    },
+    {
+      "TownId": 1812,
+      "TownName": "KARAÇOBAN"
+    },
+    {
+      "TownId": 1813,
+      "TownName": "KARAMANLI"
+    },
+    {
+      "TownId": 1816,
+      "TownName": "KEMER"
+    },
+    {
+      "TownId": 1817,
+      "TownName": "KIZILIRMAK"
+    },
+    {
+      "TownId": 1818,
+      "TownName": "KOCAALİ"
+    },
+    {
+      "TownId": 1822,
+      "TownName": "KÖSE"
+    },
+    {
+      "TownId": 1824,
+      "TownName": "MARMARA"
+    },
+    {
+      "TownId": 1828,
+      "TownName": "MURGUL"
+    },
+    {
+      "TownId": 1836,
+      "TownName": "PINARBAŞI"
+    },
+    {
+      "TownId": 1837,
+      "TownName": "PİRAZİZ"
+    },
+    {
+      "TownId": 1838,
+      "TownName": "SALIPAZARI"
+    },
+    {
+      "TownId": 1842,
+      "TownName": "ŞALPAZARI"
+    },
+    {
+      "TownId": 1843,
+      "TownName": "ŞAPHANE"
+    },
+    {
+      "TownId": 1845,
+      "TownName": "ŞENPAZAR"
+    },
+    {
+      "TownId": 1847,
+      "TownName": "TARAKLI"
+    },
+    {
+      "TownId": 1848,
+      "TownName": "TAŞKENT"
+    },
+    {
+      "TownId": 1850,
+      "TownName": "UĞURLUDAĞ"
+    },
+    {
+      "TownId": 1851,
+      "TownName": "UZUNDERE"
+    },
+    {
+      "TownId": 1853,
+      "TownName": "ÜZÜMLÜ"
+    },
+    {
+      "TownId": 1854,
+      "TownName": "YAĞLIDERE"
+    },
+    {
+      "TownId": 1855,
+      "TownName": "YAYLADERE"
+    },
+    {
+      "TownId": 1856,
+      "TownName": "YENİCE"
+    },
+    {
+      "TownId": 1857,
+      "TownName": "YENİPAZAR"
+    },
+    {
+      "TownId": 1858,
+      "TownName": "YEŞİLYURT"
+    },
+    {
+      "TownId": 1860,
+      "TownName": "AĞAÇÖREN"
+    },
+    {
+      "TownId": 1861,
+      "TownName": "GÜZELYURT"
+    },
+    {
+      "TownId": 1862,
+      "TownName": "KAZIMKARABEKİR"
+    },
+    {
+      "TownId": 1865,
+      "TownName": "PAZARYOLU"
+    },
+    {
+      "TownId": 1866,
+      "TownName": "SARIYAHŞİ"
+    },
+    {
+      "TownId": 1867,
+      "TownName": "AĞLI"
+    },
+    {
+      "TownId": 1868,
+      "TownName": "AHIRLI"
+    },
+    {
+      "TownId": 1869,
+      "TownName": "AKÇAKENT"
+    },
+    {
+      "TownId": 1870,
+      "TownName": "AKINCILAR"
+    },
+    {
+      "TownId": 1871,
+      "TownName": "AKKÖY"
+    },
+    {
+      "TownId": 1873,
+      "TownName": "ALACAKAYA"
+    },
+    {
+      "TownId": 1874,
+      "TownName": "ALTINYAYLA"
+    },
+    {
+      "TownId": 1875,
+      "TownName": "ALTINYAYLA"
+    },
+    {
+      "TownId": 1876,
+      "TownName": "ALTUNHİSAR"
+    },
+    {
+      "TownId": 1877,
+      "TownName": "AYDINCIK"
+    },
+    {
+      "TownId": 1878,
+      "TownName": "TİLLO"
+    },
+    {
+      "TownId": 1879,
+      "TownName": "AYVACIK"
+    },
+    {
+      "TownId": 1881,
+      "TownName": "BAKLAN"
+    },
+    {
+      "TownId": 1882,
+      "TownName": "BALIŞEYH"
+    },
+    {
+      "TownId": 1883,
+      "TownName": "BAŞÇİFTLİK"
+    },
+    {
+      "TownId": 1884,
+      "TownName": "BAŞYAYLA"
+    },
+    {
+      "TownId": 1885,
+      "TownName": "BAYRAMÖREN"
+    },
+    {
+      "TownId": 1888,
+      "TownName": "BEYAĞAÇ"
+    },
+    {
+      "TownId": 1889,
+      "TownName": "BOZKURT"
+    },
+    {
+      "TownId": 1890,
+      "TownName": "BOZTEPE"
+    },
+    {
+      "TownId": 1891,
+      "TownName": "ÇAMAŞ"
+    },
+    {
+      "TownId": 1892,
+      "TownName": "ÇAMLIYAYLA"
+    },
+    {
+      "TownId": 1893,
+      "TownName": "ÇAMOLUK"
+    },
+    {
+      "TownId": 1894,
+      "TownName": "ÇANAKÇI"
+    },
+    {
+      "TownId": 1895,
+      "TownName": "ÇANDIR"
+    },
+    {
+      "TownId": 1897,
+      "TownName": "ÇATALPINAR"
+    },
+    {
+      "TownId": 1898,
+      "TownName": "ÇAVDARHİSAR"
+    },
+    {
+      "TownId": 1899,
+      "TownName": "ÇAVDIR"
+    },
+    {
+      "TownId": 1900,
+      "TownName": "ÇAYBAŞI"
+    },
+    {
+      "TownId": 1901,
+      "TownName": "ÇELEBİ"
+    },
+    {
+      "TownId": 1902,
+      "TownName": "ÇELTİK"
+    },
+    {
+      "TownId": 1904,
+      "TownName": "ÇİFTLİK"
+    },
+    {
+      "TownId": 1905,
+      "TownName": "ÇİLİMLİ"
+    },
+    {
+      "TownId": 1907,
+      "TownName": "DERBENT"
+    },
+    {
+      "TownId": 1908,
+      "TownName": "DEREPAZARI"
+    },
+    {
+      "TownId": 1909,
+      "TownName": "DERNEKPAZARI"
+    },
+    {
+      "TownId": 1910,
+      "TownName": "DİKMEN"
+    },
+    {
+      "TownId": 1911,
+      "TownName": "DODURGA"
+    },
+    {
+      "TownId": 1912,
+      "TownName": "DOĞANKENT"
+    },
+    {
+      "TownId": 1913,
+      "TownName": "DOĞANŞAR"
+    },
+    {
+      "TownId": 1914,
+      "TownName": "DOĞANYOL"
+    },
+    {
+      "TownId": 1915,
+      "TownName": "DOĞANYURT"
+    },
+    {
+      "TownId": 1916,
+      "TownName": "DÖRTDİVAN"
+    },
+    {
+      "TownId": 1917,
+      "TownName": "DÜZKÖY"
+    },
+    {
+      "TownId": 1919,
+      "TownName": "EKİNÖZÜ"
+    },
+    {
+      "TownId": 1920,
+      "TownName": "EMİRGAZİ"
+    },
+    {
+      "TownId": 1921,
+      "TownName": "ESKİL"
+    },
+    {
+      "TownId": 1923,
+      "TownName": "EVCİLER"
+    },
+    {
+      "TownId": 1924,
+      "TownName": "EVREN"
+    },
+    {
+      "TownId": 1926,
+      "TownName": "GÖKÇEBEY"
+    },
+    {
+      "TownId": 1927,
+      "TownName": "GÖLOVA"
+    },
+    {
+      "TownId": 1929,
+      "TownName": "GÖNEN"
+    },
+    {
+      "TownId": 1930,
+      "TownName": "GÜCE"
+    },
+    {
+      "TownId": 1931,
+      "TownName": "GÜÇLÜKONAK"
+    },
+    {
+      "TownId": 1932,
+      "TownName": "GÜLAĞAÇ"
+    },
+    {
+      "TownId": 1933,
+      "TownName": "GÜNEYSINIR"
+    },
+    {
+      "TownId": 1934,
+      "TownName": "GÜNYÜZÜ"
+    },
+    {
+      "TownId": 1936,
+      "TownName": "HACILAR"
+    },
+    {
+      "TownId": 1937,
+      "TownName": "HALKAPINAR"
+    },
+    {
+      "TownId": 1938,
+      "TownName": "HAMAMÖZÜ"
+    },
+    {
+      "TownId": 1939,
+      "TownName": "HAN"
+    },
+    {
+      "TownId": 1940,
+      "TownName": "HANÖNÜ"
+    },
+    {
+      "TownId": 1942,
+      "TownName": "HAYRAT"
+    },
+    {
+      "TownId": 1943,
+      "TownName": "HEMŞİN"
+    },
+    {
+      "TownId": 1944,
+      "TownName": "HOCALAR"
+    },
+    {
+      "TownId": 1945,
+      "TownName": "ILICA"
+    },
+    {
+      "TownId": 1946,
+      "TownName": "İBRADI"
+    },
+    {
+      "TownId": 1947,
+      "TownName": "İKİZCE"
+    },
+    {
+      "TownId": 1948,
+      "TownName": "İNHİSAR"
+    },
+    {
+      "TownId": 1949,
+      "TownName": "İYİDERE"
+    },
+    {
+      "TownId": 1950,
+      "TownName": "KABADÜZ"
+    },
+    {
+      "TownId": 1951,
+      "TownName": "KABATAŞ"
+    },
+    {
+      "TownId": 1952,
+      "TownName": "KADIŞEHRİ"
+    },
+    {
+      "TownId": 1953,
+      "TownName": "KALE"
+    },
+    {
+      "TownId": 1954,
+      "TownName": "KARAKEÇİLİ"
+    },
+    {
+      "TownId": 1956,
+      "TownName": "KARKAMIŞ"
+    },
+    {
+      "TownId": 1957,
+      "TownName": "KARPUZLU"
+    },
+    {
+      "TownId": 1958,
+      "TownName": "KAVAKLIDERE"
+    },
+    {
+      "TownId": 1961,
+      "TownName": "KIZILÖREN"
+    },
+    {
+      "TownId": 1962,
+      "TownName": "KOCAKÖY"
+    },
+    {
+      "TownId": 1963,
+      "TownName": "KORGUN"
+    },
+    {
+      "TownId": 1964,
+      "TownName": "KORKUT"
+    },
+    {
+      "TownId": 1965,
+      "TownName": "KÖPRÜBAŞI"
+    },
+    {
+      "TownId": 1966,
+      "TownName": "KÖPRÜBAŞI"
+    },
+    {
+      "TownId": 1967,
+      "TownName": "KÖPRÜKÖY"
+    },
+    {
+      "TownId": 1969,
+      "TownName": "KULUNCAK"
+    },
+    {
+      "TownId": 1970,
+      "TownName": "KUMLU"
+    },
+    {
+      "TownId": 1971,
+      "TownName": "KÜRTÜN"
+    },
+    {
+      "TownId": 1972,
+      "TownName": "LAÇİN"
+    },
+    {
+      "TownId": 1973,
+      "TownName": "MİHALGAZİ"
+    },
+    {
+      "TownId": 1974,
+      "TownName": "NURDAĞI"
+    },
+    {
+      "TownId": 1975,
+      "TownName": "NURHAK"
+    },
+    {
+      "TownId": 1976,
+      "TownName": "OĞUZLAR"
+    },
+    {
+      "TownId": 1977,
+      "TownName": "OTLUKBELİ"
+    },
+    {
+      "TownId": 1978,
+      "TownName": "ÖZVATAN"
+    },
+    {
+      "TownId": 1979,
+      "TownName": "PAZARLAR"
+    },
+    {
+      "TownId": 1980,
+      "TownName": "SARAY"
+    },
+    {
+      "TownId": 1981,
+      "TownName": "SARAYDÜZÜ"
+    },
+    {
+      "TownId": 1982,
+      "TownName": "SARAYKENT"
+    },
+    {
+      "TownId": 1983,
+      "TownName": "SARIVELİLER"
+    },
+    {
+      "TownId": 1984,
+      "TownName": "SEYDİLER"
+    },
+    {
+      "TownId": 1985,
+      "TownName": "SİNCİK"
+    },
+    {
+      "TownId": 1987,
+      "TownName": "SULUSARAY"
+    },
+    {
+      "TownId": 1990,
+      "TownName": "TUZLUKÇU"
+    },
+    {
+      "TownId": 1991,
+      "TownName": "ULAŞ"
+    },
+    {
+      "TownId": 1993,
+      "TownName": "YAKAKENT"
+    },
+    {
+      "TownId": 1994,
+      "TownName": "YALIHÜYÜK"
+    },
+    {
+      "TownId": 1995,
+      "TownName": "YAZIHAN"
+    },
+    {
+      "TownId": 1996,
+      "TownName": "YEDİSU"
+    },
+    {
+      "TownId": 1997,
+      "TownName": "YENİÇAĞA"
+    },
+    {
+      "TownId": 1998,
+      "TownName": "YENİFAKILI"
+    },
+    {
+      "TownId": 2001,
+      "TownName": "YENİŞARBADEMLİ"
+    },
+    {
+      "TownId": 2002,
+      "TownName": "YEŞİLLİ"
+    },
+    {
+      "TownId": 2008,
+      "TownName": "DAMAL"
+    },
+    {
+      "TownId": 2011,
+      "TownName": "KARAKOYUNLU"
+    },
+    {
+      "TownId": 2017,
+      "TownName": "GÜMÜŞOVA"
+    },
+    {
+      "TownId": 2020,
+      "TownName": "ARMUTLU"
+    },
+    {
+      "TownId": 2023,
+      "TownName": "ELBEYLİ"
+    },
+    {
+      "TownId": 2024,
+      "TownName": "MUSABEYLİ"
+    },
+    {
+      "TownId": 2025,
+      "TownName": "POLATELİ"
+    },
+    {
+      "TownId": 2028,
+      "TownName": "SUMBAS"
+    },
+    {
+      "TownId": 2031,
+      "TownName": "KAYNAŞLI"
+    },
+    {
+      "TownId": 2066,
+      "TownName": "BELEK"
+    },
+    {
+      "TownId": 2071,
+      "TownName": "ANITTEPE"
+    },
+    {
+      "TownId": 2072,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 2074,
+      "TownName": "CEBECİ"
+    },
+    {
+      "TownId": 2096,
+      "TownName": "EŞMEKAYA"
+    },
+    {
+      "TownId": 1366,
+      "TownName": "GÜLNAR"
+    },
+    {
+      "TownId": 2612,
+      "TownName": "MERKEZ"
+    },
+    {
+      "TownId": 1536,
+      "TownName": "MUT"
+    },
+    {
+      "TownId": 1766,
+      "TownName": "AYDINCIK"
+    },
+    {
+      "TownId": 1779,
+      "TownName": "BOZYAZI"
+    },
+    {
+      "TownId": 1892,
+      "TownName": "ÇAMLIYAYLA"
+    },
+    {
+      "TownId": 1655,
+      "TownName": "ŞEFAATLİ"
+    }
+  ]
+}

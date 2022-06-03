@@ -53,7 +53,6 @@ public class Crud {
         System.out.println("Category Name: " + pet.getCategory().getName());
 
         List <Tags> tag = pet.getTags();
-
         for(int i=0;i<tag.size();i++)
         {
           if(tag.get(i).getName().equalsIgnoreCase("Tag-1"))
@@ -61,6 +60,7 @@ public class Crud {
               System.out.println("Id Of Tag: "+ tag.get(i).getId());
           }
         }
+
 
     }
 
