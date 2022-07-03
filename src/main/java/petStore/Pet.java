@@ -6,6 +6,8 @@ import io.restassured.specification.RequestSpecification;
 import resources.Base;
 import resources.Data;
 
+import java.io.FileNotFoundException;
+
 import static io.restassured.RestAssured.given;
 
 
@@ -40,7 +42,7 @@ public class Pet extends Base {
                 "}";
     }
 
-    public void addPetPayload() {
+    public void addPetPayload() throws FileNotFoundException {
         /*insertPetResponse = given().log().all().header("Content-Type", "application/json")
                 .body(insertPetPayload())
                 .when().post(resources)

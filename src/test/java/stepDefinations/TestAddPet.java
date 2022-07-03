@@ -7,11 +7,13 @@ import io.cucumber.java.en.When;
 import org.testng.Assert;
 import resources.Base;
 
+import java.io.FileNotFoundException;
+
 public class TestAddPet extends Base {
     Pet pet = new Pet();
 
     @Given("Add pet payload")
-    public void add_pet_payload() {
+    public void add_pet_payload() throws FileNotFoundException {
         pet.addPetPayload();
 
     }

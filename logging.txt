@@ -1,0 +1,174 @@
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 19030000,
+    "category": {
+        "id": 1,
+        "name": "Kuş"
+    },
+    "name": "Kara Kartal-1",
+    "photoUrls": [
+        "https://images.app.goo.gl/sa9kMb9HEjnt1wox7"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Tag-1"
+        }
+    ],
+    "status": "Mevcut"
+}
+HTTP/1.1 200 OK
+Date: Sun, 03 Jul 2022 13:29:03 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 19030000,
+    "category": {
+        "id": 1,
+        "name": "Kuş"
+    },
+    "name": "Kara Kartal-1",
+    "photoUrls": [
+        "https://images.app.goo.gl/sa9kMb9HEjnt1wox7"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Tag-1"
+        }
+    ],
+    "status": "Mevcut"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 19030000,
+    "category": {
+        "id": 1,
+        "name": "Kuş"
+    },
+    "name": "Kara Kartal-1",
+    "photoUrls": [
+        "https://images.app.goo.gl/sa9kMb9HEjnt1wox7"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Tag-1"
+        }
+    ],
+    "status": "Mevcut"
+}
+HTTP/1.1 200 OK
+Date: Sun, 03 Jul 2022 13:29:04 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 19030000,
+    "category": {
+        "id": 1,
+        "name": "Kuş"
+    },
+    "name": "Kara Kartal-1",
+    "photoUrls": [
+        "https://images.app.goo.gl/sa9kMb9HEjnt1wox7"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Tag-1"
+        }
+    ],
+    "status": "Mevcut"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 19030000,
+    "category": {
+        "id": 1,
+        "name": "Kuş"
+    },
+    "name": "Kara Kartal-1",
+    "photoUrls": [
+        "https://images.app.goo.gl/sa9kMb9HEjnt1wox7"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Tag-1"
+        }
+    ],
+    "status": "Mevcut"
+}
+HTTP/1.1 200 OK
+Date: Sun, 03 Jul 2022 13:29:04 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 19030000,
+    "category": {
+        "id": 1,
+        "name": "Kuş"
+    },
+    "name": "Kara Kartal-1",
+    "photoUrls": [
+        "https://images.app.goo.gl/sa9kMb9HEjnt1wox7"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Tag-1"
+        }
+    ],
+    "status": "Mevcut"
+}
