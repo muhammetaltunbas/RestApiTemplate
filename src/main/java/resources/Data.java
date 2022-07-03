@@ -9,9 +9,6 @@ import java.util.List;
 
 public class Data {
 
-    //public static final String baseUri = "https://rahulshettyacademy.com";
-    public static final String baseUri = "https://petstore.swagger.io/";
-
     Category cgr = new Category();
     Tags tg = new Tags();
     PetPayload petPayload = new PetPayload();
@@ -25,7 +22,7 @@ public class Data {
         cgr.setName("Kuş");
         petPayload.setCategory(cgr);
 
-        petPayload.setName("Kara Kartal-1");
+        petPayload.setName("Kara Kartal-3");
 
         photoList.add("https://images.app.goo.gl/sa9kMb9HEjnt1wox7");
         petPayload.setPhotoUrls(photoList);
