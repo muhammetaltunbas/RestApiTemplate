@@ -15,6 +15,7 @@ import java.util.Properties;
 
 
 public class Base {
+    public static RequestSpecification req;
     PrintStream log;
 
     public static String getGlobalValue(String key) throws IOException {
@@ -31,12 +32,17 @@ public class Base {
     }
 
     public RequestSpecification getCommonReq() throws IOException {
-        log = new PrintStream(new FileOutputStream("logging.txt"));
-        return new RequestSpecBuilder().setBaseUri(getGlobalValue("baseUri"))
-                .addHeader("Content-Type", "application/json")
-                .addFilter(RequestLoggingFilter.logRequestTo(log))
-                .addFilter(ResponseLoggingFilter.logResponseTo(log))
-                .setContentType(ContentType.JSON).build();
+        if (req == null) {
+            log = new PrintStream(new FileOutputStream("logging.txt"));
+            req = new RequestSpecBuilder().setBaseUri(getGlobalValue("baseUri"))
+                    .addHeader("Content-Type", "application/json")
+                    .addFilter(RequestLoggingFilter.logRequestTo(log))
+                    .addFilter(ResponseLoggingFilter.logResponseTo(log))
+                    .setContentType(ContentType.JSON).build();
+            return req;
+        }
+        return req;
+
     }
 
     public ResponseSpecification getCommonRes() {

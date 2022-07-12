@@ -15,14 +15,14 @@ public class Data {
     List<String> photoList = new ArrayList<String>();
     List<Tags> tag = new ArrayList<Tags>();
 
-    public PetPayload setMethodsForAddPet() {
-        petPayload.setId(19030000);
+    public PetPayload setMethodsForAddPet(int id, String categoryName, String name) {
+        petPayload.setId(id);
 
         cgr.setId(1);
-        cgr.setName("Kuş");
+        cgr.setName(categoryName);
         petPayload.setCategory(cgr);
 
-        petPayload.setName("Kara Kartal-3");
+        petPayload.setName(name);
 
         photoList.add("https://images.app.goo.gl/sa9kMb9HEjnt1wox7");
         petPayload.setPhotoUrls(photoList);
