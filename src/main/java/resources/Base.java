@@ -1,12 +1,12 @@
 package resources;
 
-import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
@@ -26,9 +26,10 @@ public class Base {
         return prop.getProperty(key);
     }
 
-    public JsonPath rawToJson(String response) {
-        JsonPath js = new JsonPath(response);
-        return js;
+    public String getJsonPath(Response response, String key) {
+        String resp = response.asString();
+        JsonPath js = new JsonPath(resp);
+        return js.get(key).toString();
     }
 
     public RequestSpecification getCommonReq() throws IOException {
