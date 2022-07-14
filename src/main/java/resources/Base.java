@@ -32,6 +32,7 @@ public class Base {
         return js.get(key).toString();
     }
 
+
     public RequestSpecification getCommonReq() throws IOException {
         if (req == null) {
             log = new PrintStream(new FileOutputStream("logging.txt"));

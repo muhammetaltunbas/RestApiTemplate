@@ -11,12 +11,12 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "id": 190300006,
+    "id": 190300020,
     "category": {
         "id": 1,
         "name": "Kuş"
     },
-    "name": "Kara Kartal Test",
+    "name": "Kuş Name From Feature File",
     "photoUrls": [
         "https://images.app.goo.gl/sa9kMb9HEjnt1wox7"
     ],
@@ -26,10 +26,10 @@ Body:
             "name": "Tag-1"
         }
     ],
-    "status": "Mevcut"
+    "status": "Added"
 }
 HTTP/1.1 200 OK
-Date: Tue, 12 Jul 2022 22:44:15 GMT
+Date: Thu, 14 Jul 2022 08:22:50 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -39,12 +39,12 @@ Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 Server: Jetty(9.2.9.v20150224)
 
 {
-    "id": 190300006,
+    "id": 190300020,
     "category": {
         "id": 1,
         "name": "Kuş"
     },
-    "name": "Kara Kartal Test",
+    "name": "Kuş Name From Feature File",
     "photoUrls": [
         "https://images.app.goo.gl/sa9kMb9HEjnt1wox7"
     ],
@@ -54,22 +54,22 @@ Server: Jetty(9.2.9.v20150224)
             "name": "Tag-1"
         }
     ],
-    "status": "Mevcut"
+    "status": "Added"
 }
 Request method:	GET
-Request URI:	https://petstore.swagger.io/v2/pet/190300006
+Request URI:	https://petstore.swagger.io/v2/pet/190300020
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	id=190300006
+Path params:	id=190300020
 Headers:		Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Tue, 12 Jul 2022 22:44:39 GMT
+Date: Thu, 14 Jul 2022 08:22:51 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -79,12 +79,12 @@ Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 Server: Jetty(9.2.9.v20150224)
 
 {
-    "id": 190300006,
+    "id": 190300020,
     "category": {
         "id": 1,
         "name": "Kuş"
     },
-    "name": "Kara Kartal Test",
+    "name": "Kuş Name From Feature File",
     "photoUrls": [
         "https://images.app.goo.gl/sa9kMb9HEjnt1wox7"
     ],
@@ -94,5 +94,5 @@ Server: Jetty(9.2.9.v20150224)
             "name": "Tag-1"
         }
     ],
-    "status": "Mevcut"
+    "status": "Added"
 }

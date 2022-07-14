@@ -33,9 +33,31 @@ public class Data {
         tag.add(tg);
         petPayload.setTags(tag);
 
-        petPayload.setStatus("Mevcut");
+        petPayload.setStatus("Added");
         return petPayload;
     }
+    public PetPayload setMethodsForUpdatePet(int id,String name) {
+        petPayload.setId(id);
+
+        cgr.setId(1);
+        cgr.setName("Category Updated Name");
+        petPayload.setCategory(cgr);
+
+        petPayload.setName(name);
+
+        photoList.add("https://images.app.goo.gl/sa9kMb9HEjnt1wox7");
+        petPayload.setPhotoUrls(photoList);
+
+        tg.setId(1);
+        tg.setName("Tag-1");
+        tag.add(tg);
+        petPayload.setTags(tag);
+
+        petPayload.setStatus("Updated");
+        return petPayload;
+    }
+
+
 
 
 }
