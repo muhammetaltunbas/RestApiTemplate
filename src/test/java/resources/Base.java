@@ -9,6 +9,7 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
+import org.testng.Assert;
 import stepDefinations.TestPet;
 
 import java.io.FileInputStream;
@@ -16,6 +17,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.util.Properties;
+
+import static io.restassured.RestAssured.given;
 
 public class Base {
 
@@ -77,4 +80,13 @@ public class Base {
             TestPet.idOfPet = 0;
         }
     }
+
+    public String checkAreaUsingAPI(String resources) throws IOException {
+        TestPet.idOfPet = Integer.parseInt(getJsonPath(TestPet.response, "id"));
+        TestPet.request = given().spec(getCommonReq()).pathParam("id", TestPet.idOfPet);// GET Request
+        executeApi(resources, "GET");
+        return getJsonPath(TestPet.response, "name");
+
+    }
+
 }

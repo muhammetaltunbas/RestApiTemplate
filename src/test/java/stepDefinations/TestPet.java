@@ -31,7 +31,6 @@ public class TestPet extends Base {
     @When("User calls {string} with {string} https request")
     public void user_calls_with_https_request(String resource, String method) {
         executeApi(resource, method);
-
     }
 
     @Then("The api call gets success with status code {int}")
@@ -50,13 +49,9 @@ public class TestPet extends Base {
     }
 
     @And("Verify {string} is proper using {string}")
-    public void verify_is_proper_using(String expectedArea, String resources) throws IOException {
-        //Burada bir refactoring yap. "name" dışında başka alanlarda da çalışması gerekiyor.
-        idOfPet = Integer.parseInt(getJsonPath(response, "id"));
-        request = given().spec(getCommonReq()).pathParam("id", idOfPet);
-        user_calls_with_https_request(resources, "GET");// Yandaki komut'da aynı işlemi yapar => executeApi(resources,"GET");
-        String actualName = getJsonPath(response, "name");
-        Assert.assertEquals(actualName, expectedArea);
+    public void verify_is_proper_using(String expectedValue, String resources) throws IOException {
+
+        Assert.assertEquals(checkAreaUsingAPI(resources), expectedValue);
 
     }
 

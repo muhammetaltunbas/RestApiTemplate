@@ -11,9 +11,9 @@ Feature: Validating PetStore API's
 
 
     Examples:
-      | id        | categoryName | name                        |
-      | 190300021 | Kuş          | Kuş Name From Feature File1 |
-    #  | 190300011 | Kuş          | Pet Name |
+      | id        | categoryName | name          |
+      | 190300023 | Bird         | Black Eagle-1 |
+   #   | 190300024 | Kuş          | Pet Name-1    |
 
   @UpdatePet
   Scenario Outline: Verify if Update Pet functionality is working
