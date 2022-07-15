@@ -36,7 +36,8 @@ public class Data {
         petPayload.setStatus("Added");
         return petPayload;
     }
-    public PetPayload setMethodsForUpdatePet(int id,String name) {
+
+    public PetPayload setMethodsForUpdatePet(int id, String name) {
         petPayload.setId(id);
 
         cgr.setId(1);
@@ -57,7 +58,12 @@ public class Data {
         return petPayload;
     }
 
-
+   /* public String test(String name, String status) {
+        return "{\n" +
+                "    \"name\": \"" + name + "\",\n" +
+                "    \"status\": \"" + status + "\",\n" +
+                "}";
+    }*/
 
 
 }

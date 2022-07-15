@@ -6,7 +6,8 @@ public enum ApiResources {
     addPetAPI("v2/pet"),
     getPetAPI("v2/pet/{id}"),
     updatePetAPI("v2/pet"),
-    deletePetAPI("v2/pet/{id}");
+    deletePetAPI("v2/pet/{id}"),
+    updatePetMethod2("v2/pet/{id}");
 
     private String resources;
 

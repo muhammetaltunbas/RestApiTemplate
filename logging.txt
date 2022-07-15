@@ -11,12 +11,12 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "id": 190300020,
+    "id": 190300021,
     "category": {
         "id": 1,
         "name": "Kuş"
     },
-    "name": "Kuş Name From Feature File",
+    "name": "Kuş Name From Feature File1",
     "photoUrls": [
         "https://images.app.goo.gl/sa9kMb9HEjnt1wox7"
     ],
@@ -29,7 +29,7 @@ Body:
     "status": "Added"
 }
 HTTP/1.1 200 OK
-Date: Thu, 14 Jul 2022 08:22:50 GMT
+Date: Fri, 15 Jul 2022 14:02:44 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -39,12 +39,12 @@ Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 Server: Jetty(9.2.9.v20150224)
 
 {
-    "id": 190300020,
+    "id": 190300021,
     "category": {
         "id": 1,
         "name": "Kuş"
     },
-    "name": "Kuş Name From Feature File",
+    "name": "Kuş Name From Feature File1",
     "photoUrls": [
         "https://images.app.goo.gl/sa9kMb9HEjnt1wox7"
     ],
@@ -57,19 +57,19 @@ Server: Jetty(9.2.9.v20150224)
     "status": "Added"
 }
 Request method:	GET
-Request URI:	https://petstore.swagger.io/v2/pet/190300020
+Request URI:	https://petstore.swagger.io/v2/pet/190300021
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	id=190300020
+Path params:	id=190300021
 Headers:		Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Thu, 14 Jul 2022 08:22:51 GMT
+Date: Fri, 15 Jul 2022 14:02:45 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -79,12 +79,12 @@ Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 Server: Jetty(9.2.9.v20150224)
 
 {
-    "id": 190300020,
+    "id": 190300021,
     "category": {
         "id": 1,
         "name": "Kuş"
     },
-    "name": "Kuş Name From Feature File",
+    "name": "Kuş Name From Feature File1",
     "photoUrls": [
         "https://images.app.goo.gl/sa9kMb9HEjnt1wox7"
     ],

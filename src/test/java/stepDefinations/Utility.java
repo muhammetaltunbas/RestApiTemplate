@@ -1,4 +1,4 @@
-package resources;
+package stepDefinations;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -9,12 +9,16 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
+import resources.ApiResources;
 
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.PrintStream;
 import java.util.Properties;
 
+public class Utility {
 
-public class Base {
     public static RequestSpecification req;
     PrintStream log;
 
@@ -24,6 +28,14 @@ public class Base {
                 System.getProperty("user.dir") + "//src//main//java//resources//globalData.properties");
         prop.load(fis);
         return prop.getProperty(key);
+    }
+
+    public Boolean nullCheckControl(Response response, String responseArea) {
+        if (getJsonPath(response, responseArea) == null)
+            return false;
+        if (getJsonPath(response, responseArea) == "")
+            return false;
+        return true;
     }
 
     public String getJsonPath(Response response, String key) {
@@ -51,5 +63,18 @@ public class Base {
         return new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
     }
 
-
+    public void executeApi(String resource, String method) {
+        // Constructor (inside of ApiResources enum) will be called with value of resource which you pass
+        TestPet.resourceApi = ApiResources.valueOf(resource);
+        if (method.equalsIgnoreCase("POST"))
+            TestPet.response = TestPet.request.when().post(TestPet.resourceApi.getResources());
+        else if (method.equalsIgnoreCase("GET"))
+            TestPet.response = TestPet.request.when().get(TestPet.resourceApi.getResources());
+        else if (method.equalsIgnoreCase("PUT"))
+            TestPet.response = TestPet.request.when().put(TestPet.resourceApi.getResources());
+        else if (method.equalsIgnoreCase("DELETE")) {
+            TestPet.response = TestPet.request.when().delete(TestPet.resourceApi.getResources());
+            TestPet.idOfPet = 0;
+        }
+    }
 }

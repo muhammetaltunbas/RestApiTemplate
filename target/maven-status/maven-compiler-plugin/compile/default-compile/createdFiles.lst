@@ -1,0 +1,8 @@
+petStore/Tags.class
+resources/ApiResources.class
+petStore/Category.class
+petStore/Pet.class
+petStore/PetPayload.class
+resources/Data.class
+resources/Base.class
+petStore/Test.class
