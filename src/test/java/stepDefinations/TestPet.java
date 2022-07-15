@@ -9,13 +9,14 @@ import io.cucumber.java.en.When;
 import org.testng.Assert;
 import resources.ApiResources;
 import resources.Data;
+import resources.Base;
 
 import java.io.IOException;
 
 import static io.restassured.RestAssured.given;
 
 
-public class TestPet extends Utility {
+public class TestPet extends Base {
     public static int idOfPet;
     public static RequestSpecification request;
     public static Response response;

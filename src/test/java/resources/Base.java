@@ -1,4 +1,4 @@
-package stepDefinations;
+package resources;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -9,7 +9,7 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
-import resources.ApiResources;
+import stepDefinations.TestPet;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.io.PrintStream;
 import java.util.Properties;
 
-public class Utility {
+public class Base {
 
     public static RequestSpecification req;
     PrintStream log;
@@ -25,7 +25,7 @@ public class Utility {
     public static String getGlobalValue(String key) throws IOException {
         Properties prop = new Properties();
         FileInputStream fis = new FileInputStream(
-                System.getProperty("user.dir") + "//src//main//java//resources//globalData.properties");
+                System.getProperty("user.dir") + "//src//test//java//resources//globalData.properties");
         prop.load(fis);
         return prop.getProperty(key);
     }
