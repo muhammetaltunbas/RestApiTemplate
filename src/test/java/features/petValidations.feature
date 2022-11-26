@@ -1,6 +1,6 @@
 Feature: Validating PetStore API's
 
-
+  @addPet
   Scenario Outline: Verify if Add Pet functionality is working
     Given Prepare addPetAPI payload with <id> "<categoryName>" "<name>"
     When User calls "addPetAPI" with "POST" https request
@@ -11,9 +11,8 @@ Feature: Validating PetStore API's
 
 
     Examples:
-      | id        | categoryName | name          |
-      | 190300023 | Bird         | Black Eagle-1 |
-   #   | 190300024 | Kuş          | Pet Name-1    |
+      | id         | categoryName | name                  |
+      | 1299192301 | Bird=Kuş     | Black And White Eagle |
 
   @UpdatePet
   Scenario Outline: Verify if Update Pet functionality is working
@@ -25,8 +24,8 @@ Feature: Validating PetStore API's
     And Verify "<name>" is proper using "getPetAPI"
 
     Examples:
-      | name                                          |
-      | Kara Kartal Name is Updated From Feature File |
+      | name        |
+      | White Eagle |
 
   @DeletePet
   Scenario: Verify if Delete Pet functionality is working
@@ -39,19 +38,6 @@ Feature: Validating PetStore API's
     Then The api call gets success with status code 404
 
 
-  @UpdatePetMethod2
-  Scenario Outline: Verify if Update Pet method 2 functionality is working
-    Given Prepare updatePetMethod2 payload with "<name>" and "<status>"
-    When User calls "updatePetMethod2" with "POST" https request
-    Then The api call gets success with status code 200
-    Then Verify in response body "code" area is 200
-    And User calls "getPetAPI" with "GET" https request
-    And Verify "<name>" is proper using "getPetAPI"
-    Then Verify in response body "status" area is "Updated2"
-
-    Examples:
-      | name   | status   |
-      | Boncuk | Updated2 |
 
 
 

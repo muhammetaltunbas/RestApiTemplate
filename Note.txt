@@ -1,7 +1,0 @@
-1- Hooks sınıfında Before'da birden fazla tag'leme yapamıyouz. Hangi tag'i koyarsan o tag'in bulunduğu senaryodan önce ilgili işlemler çalışır.
-Eğer hiç tag yoksa, projedeki tüm senaryoların öncesinde ilgili işlemler çalışır. Örneğin burada hiç tag koymazsak, gidip AddPet içinde çalışacak, gerek olamdığı halde.
-Before'daki komutlar, @DeletePet ve @UpdatePetMethod2 için geçerli.
-Şuan @UpdatePetMethod2 var. Eğer DeletePet senaryosunu tek başına çalıştırırsan hata alırsın. Eğer tüm senaryoları çalıştırırsan hata almıyoruz, bunda sorun yok.
-2- Projeyi maven komutları (örn; "mvn test") ile çalıştırdığımda, test'lerimi görmüyor. Test Run:0 dye sonuç dönüor. Udemy'den bunu sorduğumda TestNG yerine JUnit kullan dediler.
-Böyle düzenlersin projeni. Ben örneğin projede assertion'larda hep TestNG kullandım.
-3- prepare_update_pet_method2_payload_with_and methodunda refactoring yap. Bu methoddaki işlemlerin logu, logging.txt'e yansımıyor mesela şuanda.

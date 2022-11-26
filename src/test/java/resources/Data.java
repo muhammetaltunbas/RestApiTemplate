@@ -1,6 +1,8 @@
 package resources;
 
+import org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor;
 import petStore.Category;
+import petStore.OrderPetPayload;
 import petStore.PetPayload;
 import petStore.Tags;
 
@@ -14,6 +16,7 @@ public class Data {
     PetPayload petPayload = new PetPayload();
     List<String> photoList = new ArrayList<String>();
     List<Tags> tag = new ArrayList<Tags>();
+    OrderPetPayload orderPayload = new OrderPetPayload();
 
     public PetPayload setMethodsForAddPet(int id, String categoryName, String name) {
         petPayload.setId(id);
@@ -24,10 +27,9 @@ public class Data {
 
         petPayload.setName(name);
 
-        photoList.add("https://images.app.goo.gl/sa9kMb9HEjnt1wox7");
+        photoList.add("https://cdn.britannica.com/96/76096-050-8CF14F84/Bald-eagle-snag-Alaska-Kenai.jpg");
         petPayload.setPhotoUrls(photoList);
 
-        //Burada birden fazla tag nasıl göndereceğiz bunu düşün!
         tg.setId(1);
         tg.setName("Tag-1");
         tag.add(tg);
@@ -46,7 +48,7 @@ public class Data {
 
         petPayload.setName(name);
 
-        photoList.add("https://images.app.goo.gl/sa9kMb9HEjnt1wox7");
+        photoList.add("https://cdn.britannica.com/96/76096-050-8CF14F84/Bald-eagle-snag-Alaska-Kenai.jpg");
         petPayload.setPhotoUrls(photoList);
 
         tg.setId(1);
@@ -58,12 +60,16 @@ public class Data {
         return petPayload;
     }
 
-   /* public String test(String name, String status) {
-        return "{\n" +
-                "    \"name\": \"" + name + "\",\n" +
-                "    \"status\": \"" + status + "\",\n" +
-                "}";
-    }*/
+    public OrderPetPayload setMethodsForCreateOrder(int id, int petId, int quantity) {
+        orderPayload.setId(id);
+        orderPayload.setPetId(petId);
+        orderPayload.setQuantity(quantity);
+        orderPayload.setShipDate("2022-11-26T21:07:56.331+0000");
+        orderPayload.setStatus("completed");
+        orderPayload.setComplete(true);
+
+        return orderPayload;
+    }
 
 
 }

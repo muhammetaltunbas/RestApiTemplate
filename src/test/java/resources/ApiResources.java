@@ -7,7 +7,7 @@ public enum ApiResources {
     getPetAPI("v2/pet/{id}"),
     updatePetAPI("v2/pet"),
     deletePetAPI("v2/pet/{id}"),
-    updatePetMethod2("v2/pet/{id}");
+    createOrderApi("v2/store/order");
 
     private String resources;
 

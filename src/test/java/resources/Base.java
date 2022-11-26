@@ -9,13 +9,10 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
-import org.testng.Assert;
+import stepDefinations.TestOrder;
 import stepDefinations.TestPet;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.PrintStream;
+import java.io.*;
 import java.util.Properties;
 
 import static io.restassured.RestAssured.given;
@@ -23,7 +20,15 @@ import static io.restassured.RestAssured.given;
 public class Base {
 
     public static RequestSpecification req;
-    PrintStream log;
+    public static PrintStream log;
+
+    static {
+        try {
+            log = new PrintStream(new FileOutputStream("logging.txt"));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
 
     public static String getGlobalValue(String key) throws IOException {
         Properties prop = new Properties();
@@ -50,7 +55,6 @@ public class Base {
 
     public RequestSpecification getCommonReq() throws IOException {
         if (req == null) {
-            log = new PrintStream(new FileOutputStream("logging.txt"));
             req = new RequestSpecBuilder().setBaseUri(getGlobalValue("baseUri"))
                     .addHeader("Content-Type", "application/json")
                     .addFilter(RequestLoggingFilter.logRequestTo(log))
@@ -80,6 +84,15 @@ public class Base {
             TestPet.idOfPet = 0;
         }
     }
+
+    public void executeApiForOrder(String resource, String method) {
+        TestOrder.resourceApi = ApiResources.valueOf(resource);
+        if (method.equalsIgnoreCase("POST"))
+            TestOrder.response = TestOrder.request.when().post(TestOrder.resourceApi.getResources());
+        else if (method.equalsIgnoreCase("GET"))
+            TestOrder.response = TestOrder.request.when().post(TestOrder.resourceApi.getResources());
+    }
+
 
     public String checkAreaUsingAPI(String resources) throws IOException {
         TestPet.idOfPet = Integer.parseInt(getJsonPath(TestPet.response, "id"));

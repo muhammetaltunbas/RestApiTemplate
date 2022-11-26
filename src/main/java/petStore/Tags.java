@@ -1,6 +1,10 @@
 package petStore;
 
 public class Tags {
+
+    private int id;
+    private String name;
+
     public int getId() {
         return id;
     }
@@ -17,6 +21,5 @@ public class Tags {
         this.name = name;
     }
 
-    private int id;
-    private String name;
+
 }

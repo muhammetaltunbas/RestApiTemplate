@@ -1,6 +1,8 @@
 package stepDefinations;
 
 import io.cucumber.java.en.And;
+import io.restassured.filter.log.RequestLoggingFilter;
+import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.cucumber.java.en.Given;
@@ -10,10 +12,9 @@ import org.testng.Assert;
 import resources.ApiResources;
 import resources.Data;
 import resources.Base;
-
 import java.io.IOException;
-
 import static io.restassured.RestAssured.given;
+
 
 
 public class TestPet extends Base {
@@ -71,16 +72,6 @@ public class TestPet extends Base {
         Assert.assertEquals(Integer.parseInt(getJsonPath(response, area)), intValue);
     }
 
-    @Given("Prepare updatePetMethod2 payload with {string} and {string}")
-    public void prepare_update_pet_method2_payload_with_and(String name, String status) throws IOException {
-        // Bu yöntem ile log dosyasına log atamıyoruz. Requesti reqSpec ile tanımlayıp,Base class'tan almaya çalış.
-        request = given().pathParam("id", idOfPet)
-                .baseUri(getGlobalValue("baseUri"))
-                .formParam("name", name)
-                .formParam("status", status);
-
-
-    }
 
 
 }

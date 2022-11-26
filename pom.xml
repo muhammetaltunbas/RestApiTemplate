@@ -13,18 +13,35 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
     <build>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
                 <configuration>
-                    <testFailureIgnore>true</testFailureIgnore>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <fork>true</fork>
+                </configuration>
+
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M7</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testngCucumber.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>net.masterthought</groupId>
                 <artifactId>maven-cucumber-reporting</artifactId>
-                <version>5.7.0</version>
+                <version>5.7.4</version>
                 <executions>
                     <execution>
                         <id>execution</id>
@@ -44,10 +61,6 @@
                                 <!-- supports wildcard or name pattern -->
                                 <param>**/*.json</param>
                             </jsonFiles>
-                            <!-- optional, defaults to outputDirectory if not specified -->
-
-                            <parallelTesting>false</parallelTesting>
-                            <!-- optional, set true to group features by its Ids -->
                             <mergeFeaturesById>false</mergeFeaturesById>
                             <!-- optional, set true to get a final report with latest results of the same test from different test runs -->
                             <mergeFeaturesWithRetest>false</mergeFeaturesWithRetest>
@@ -57,7 +70,9 @@
                     </execution>
                 </executions>
             </plugin>
+
         </plugins>
+
     </build>
 
     <dependencies>
@@ -71,6 +86,7 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.5</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
@@ -79,11 +95,6 @@
             <version>2.2</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>mongodb-driver-sync</artifactId>
-            <version>4.5.1</version>
-        </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
@@ -133,15 +144,32 @@
 
         <dependency>
             <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>7.3.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
             <version>7.3.4</version>
-            <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-jdk8</artifactId>
             <version>2.13.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.3</version>
+            <scope>compile</scope>
         </dependency>
 
 
