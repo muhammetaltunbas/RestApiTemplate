@@ -19,7 +19,6 @@ import static io.restassured.RestAssured.given;
 
 
 public class TestOrder extends Base {
-    public static int petId;
     public static RequestSpecification request;
     public static Response response;
     public static ApiResources resourceApi;
@@ -39,11 +38,13 @@ public class TestOrder extends Base {
     public void verify_if_status_code_is_equal(int statusCode) {
         Assert.assertEquals(response.getStatusCode(), statusCode);
     }
-
-    @Then("Verify {string} area is not null in response")
-    public void verify_area_is_not_null_in_response(String id) {
-        Assert.assertTrue(nullCheckControl(response, id));
-
+    @Then("Verify in response body {string} area is not null for order")
+    public void verify_in_response_body_area_is_not_null_for_order(String area) {
+        Assert.assertTrue(nullCheckControl(response, area));
+    }
+    @And("Verify in response body {string} area is {string} for order")
+    public void verify_in_response_body_area_is_for_order(String area, String value) {
+        Assert.assertEquals(getJsonPath(response, area), value);
     }
 
 

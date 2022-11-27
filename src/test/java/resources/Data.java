@@ -1,11 +1,9 @@
 package resources;
 
-import org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor;
 import petStore.Category;
 import petStore.OrderPetPayload;
 import petStore.PetPayload;
 import petStore.Tags;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -65,7 +63,7 @@ public class Data {
         orderPayload.setPetId(petId);
         orderPayload.setQuantity(quantity);
         orderPayload.setShipDate("2022-11-26T21:07:56.331+0000");
-        orderPayload.setStatus("completed");
+        orderPayload.setStatus("placed");
         orderPayload.setComplete(true);
 
         return orderPayload;

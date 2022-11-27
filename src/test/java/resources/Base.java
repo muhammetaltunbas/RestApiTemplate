@@ -66,9 +66,9 @@ public class Base {
 
     }
 
-    public ResponseSpecification getCommonRes() {
+   /* public ResponseSpecification getCommonRes() {
         return new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
-    }
+    }*/
 
     public void executeApi(String resource, String method) {
         // Constructor (inside of ApiResources enum) will be called with value of resource which you pass

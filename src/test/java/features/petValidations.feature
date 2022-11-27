@@ -11,8 +11,8 @@ Feature: Validating PetStore API's
 
 
     Examples:
-      | id         | categoryName | name                  |
-      | 1299192301 | Bird=Kuş     | Black And White Eagle |
+      | id       | categoryName | name        |
+      | 12991923 | Eagle        | Kara Kartal |
 
   @UpdatePet
   Scenario Outline: Verify if Update Pet functionality is working

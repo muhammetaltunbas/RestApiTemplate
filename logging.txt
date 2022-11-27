@@ -13,13 +13,13 @@ Body:
 {
     "id": 12991923,
     "petId": 1903,
-    "quantity": 3,
+    "quantity": 5,
     "shipDate": "2022-11-26T21:07:56.331+0000",
-    "status": "completed",
+    "status": "placed",
     "complete": true
 }
 HTTP/1.1 200 OK
-Date: Sat, 26 Nov 2022 23:01:36 GMT
+Date: Sun, 27 Nov 2022 20:15:17 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -31,8 +31,296 @@ Server: Jetty(9.2.9.v20150224)
 {
     "id": 12991923,
     "petId": 1903,
-    "quantity": 3,
+    "quantity": 5,
     "shipDate": "2022-11-26T21:07:56.331+0000",
-    "status": "completed",
+    "status": "placed",
     "complete": true
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/store/order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 10711071,
+    "petId": 1453,
+    "quantity": 1,
+    "shipDate": "2022-11-26T21:07:56.331+0000",
+    "status": "placed",
+    "complete": true
+}
+HTTP/1.1 200 OK
+Date: Sun, 27 Nov 2022 20:15:19 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 10711071,
+    "petId": 1453,
+    "quantity": 1,
+    "shipDate": "2022-11-26T21:07:56.331+0000",
+    "status": "placed",
+    "complete": true
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 12991923,
+    "category": {
+        "id": 1,
+        "name": "Eagle"
+    },
+    "name": "Kara Kartal",
+    "photoUrls": [
+        "https://cdn.britannica.com/96/76096-050-8CF14F84/Bald-eagle-snag-Alaska-Kenai.jpg"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Tag-1"
+        }
+    ],
+    "status": "Added"
+}
+HTTP/1.1 200 OK
+Date: Sun, 27 Nov 2022 20:15:19 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 12991923,
+    "category": {
+        "id": 1,
+        "name": "Eagle"
+    },
+    "name": "Kara Kartal",
+    "photoUrls": [
+        "https://cdn.britannica.com/96/76096-050-8CF14F84/Bald-eagle-snag-Alaska-Kenai.jpg"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Tag-1"
+        }
+    ],
+    "status": "Added"
+}
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/12991923
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=12991923
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 27 Nov 2022 20:15:21 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 12991923,
+    "category": {
+        "id": 1,
+        "name": "Eagle"
+    },
+    "name": "Kara Kartal",
+    "photoUrls": [
+        "https://cdn.britannica.com/96/76096-050-8CF14F84/Bald-eagle-snag-Alaska-Kenai.jpg"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Tag-1"
+        }
+    ],
+    "status": "Added"
+}
+Request method:	PUT
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 12991923,
+    "category": {
+        "id": 1,
+        "name": "Category Updated Name"
+    },
+    "name": "White Eagle",
+    "photoUrls": [
+        "https://cdn.britannica.com/96/76096-050-8CF14F84/Bald-eagle-snag-Alaska-Kenai.jpg"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Tag-1"
+        }
+    ],
+    "status": "Updated"
+}
+HTTP/1.1 200 OK
+Date: Sun, 27 Nov 2022 20:15:22 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 12991923,
+    "category": {
+        "id": 1,
+        "name": "Category Updated Name"
+    },
+    "name": "White Eagle",
+    "photoUrls": [
+        "https://cdn.britannica.com/96/76096-050-8CF14F84/Bald-eagle-snag-Alaska-Kenai.jpg"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Tag-1"
+        }
+    ],
+    "status": "Updated"
+}
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/12991923
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=12991923
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 27 Nov 2022 20:15:22 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 12991923,
+    "category": {
+        "id": 1,
+        "name": "Category Updated Name"
+    },
+    "name": "White Eagle",
+    "photoUrls": [
+        "https://cdn.britannica.com/96/76096-050-8CF14F84/Bald-eagle-snag-Alaska-Kenai.jpg"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Tag-1"
+        }
+    ],
+    "status": "Updated"
+}
+Request method:	DELETE
+Request URI:	https://petstore.swagger.io/v2/pet/12991923
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=12991923
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 27 Nov 2022 20:15:23 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "12991923"
+}
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/12991923
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=12991923
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Sun, 27 Nov 2022 20:15:24 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 1,
+    "type": "error",
+    "message": "Pet not found"
 }

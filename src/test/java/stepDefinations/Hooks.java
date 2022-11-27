@@ -1,7 +1,6 @@
 package stepDefinations;
 
 import io.cucumber.java.Before;
-import resources.ApiResources;
 
 import java.io.IOException;
 

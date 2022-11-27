@@ -51,9 +51,7 @@ public class TestPet extends Base {
 
     @And("Verify {string} is proper using {string}")
     public void verify_is_proper_using(String expectedValue, String resources) throws IOException {
-
         Assert.assertEquals(checkAreaUsingAPI(resources), expectedValue);
-
     }
 
     @Given("Prepare updatePetAPI payload with {string}")
