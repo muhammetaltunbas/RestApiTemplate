@@ -1,26 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 10.821 s <<< FAILURE! - in TestSuite
-testRunners.TestRunner.runScenario["Verify creating order for a pet functionality is working", "Validating Order Pet API's"](1)  Time elapsed: 2.695 s  <<< FAILURE!
-java.lang.AssertionError: expected [404] but found [200]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:1240)
-	at org.testng.Assert.assertEquals(Assert.java:1274)
-	at stepDefinations.TestOrder.verify_if_status_code_is_equal(TestOrder.java:39)
-	at ✽.Verify if status code is equal 404(file:///Users/maltunbas/git/APIProjects/APITemplateProject-PetStore/src/test/java/features/petOrderValidations.feature:7)
-
-testRunners.TestRunner.runScenario["Verify creating order for a pet functionality is working", "Validating Order Pet API's"](2)  Time elapsed: 1.835 s  <<< FAILURE!
-java.lang.AssertionError: expected [404] but found [200]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:1240)
-	at org.testng.Assert.assertEquals(Assert.java:1274)
-	at stepDefinations.TestOrder.verify_if_status_code_is_equal(TestOrder.java:39)
-	at ✽.Verify if status code is equal 404(file:///Users/maltunbas/git/APIProjects/APITemplateProject-PetStore/src/test/java/features/petOrderValidations.feature:7)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.151 s - in TestSuite

@@ -31,7 +31,8 @@ public class TestPet extends Base {
 
     @When("User calls {string} with {string} https request")
     public void user_calls_with_https_request(String resource, String method) {
-        executeApi(resource, method);
+        resourceApi = ApiResources.valueOf(resource);
+        executeApi(resourceApi,method);
     }
 
     @Then("The api call gets success with status code {int}")
@@ -51,7 +52,8 @@ public class TestPet extends Base {
 
     @And("Verify {string} is proper using {string}")
     public void verify_is_proper_using(String expectedValue, String resources) throws IOException {
-        Assert.assertEquals(checkAreaUsingAPI(resources), expectedValue);
+        resourceApi = ApiResources.valueOf(resources);
+        Assert.assertEquals(checkAreaUsingAPI(resourceApi), expectedValue);
     }
 
     @Given("Prepare updatePetAPI payload with {string}")

@@ -70,34 +70,29 @@ public class Base {
         return new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
     }*/
 
-    public void executeApi(String resource, String method) {
-        // Constructor (inside of ApiResources enum) will be called with value of resource which you pass
-        TestPet.resourceApi = ApiResources.valueOf(resource);
-        if (method.equalsIgnoreCase("POST"))
-            TestPet.response = TestPet.request.when().post(TestPet.resourceApi.getResources());
-        else if (method.equalsIgnoreCase("GET"))
-            TestPet.response = TestPet.request.when().get(TestPet.resourceApi.getResources());
+    public void executeApi(ApiResources apiResources, String method)
+    {
+        if (method.equalsIgnoreCase("POST") && apiResources.getResources().contains("pet"))
+            TestPet.response = TestPet.request.when().post(apiResources.getResources());
+        else if (method.equalsIgnoreCase("POST") && apiResources.getResources().contains("order"))
+            TestOrder.response = TestOrder.request.when().post(apiResources.getResources());
+        else if (method.equalsIgnoreCase("GET") && apiResources.getResources().contains("pet"))
+            TestPet.response = TestPet.request.when().get(apiResources.getResources());
+        else if (method.equalsIgnoreCase("GET") && apiResources.getResources().contains("order"))
+            TestOrder.response = TestOrder.request.when().post(apiResources.getResources());
         else if (method.equalsIgnoreCase("PUT"))
-            TestPet.response = TestPet.request.when().put(TestPet.resourceApi.getResources());
+            TestPet.response = TestPet.request.when().put(apiResources.getResources());
         else if (method.equalsIgnoreCase("DELETE")) {
-            TestPet.response = TestPet.request.when().delete(TestPet.resourceApi.getResources());
+            TestPet.response = TestPet.request.when().delete(apiResources.getResources());
             TestPet.idOfPet = 0;
         }
+
     }
 
-    public void executeApiForOrder(String resource, String method) {
-        TestOrder.resourceApi = ApiResources.valueOf(resource);
-        if (method.equalsIgnoreCase("POST"))
-            TestOrder.response = TestOrder.request.when().post(TestOrder.resourceApi.getResources());
-        else if (method.equalsIgnoreCase("GET"))
-            TestOrder.response = TestOrder.request.when().post(TestOrder.resourceApi.getResources());
-    }
-
-
-    public String checkAreaUsingAPI(String resources) throws IOException {
+    public String checkAreaUsingAPI(ApiResources apiResources) throws IOException {
         TestPet.idOfPet = Integer.parseInt(getJsonPath(TestPet.response, "id"));
         TestPet.request = given().spec(getCommonReq()).pathParam("id", TestPet.idOfPet);// GET Request
-        executeApi(resources, "GET");
+        executeApi(apiResources, "GET");
         return getJsonPath(TestPet.response, "name");
 
     }

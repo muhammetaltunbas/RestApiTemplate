@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite" duration-ms="10511" started-at="2022-11-27T23:15:14 EET" finished-at="2022-11-27T23:15:24 EET">
+  <suite name="Test Suite" duration-ms="8839" started-at="2022-12-04T00:14:27 EET" finished-at="2022-12-04T00:14:36 EET">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@6950e31]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="10511" started-at="2022-11-27T23:15:14 EET" finished-at="2022-11-27T23:15:24 EET">
+    <test name="Test" duration-ms="8839" started-at="2022-12-04T00:14:27 EET" finished-at="2022-12-04T00:14:36 EET">
       <class name="testRunners.TestRunner">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunners.TestRunner@6950e31]" name="setUpClass" is-config="true" duration-ms="208" started-at="2022-11-27T23:15:14 EET" finished-at="2022-11-27T23:15:14 EET">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunners.TestRunner@6950e31]" name="setUpClass" is-config="true" duration-ms="244" started-at="2022-12-04T00:14:27 EET" finished-at="2022-12-04T00:14:27 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6a1d526c]]>
+                <![CDATA[org.testng.TestRunner@5d3ff859]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@6950e31]" name="runScenario" duration-ms="2694" started-at="2022-11-27T23:15:14 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-27T23:15:17 EET">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@6950e31]" name="runScenario" duration-ms="2836" started-at="2022-12-04T00:14:27 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-04T00:14:30 EET">
           <params>
             <param index="0">
               <value>
@@ -34,27 +34,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [404] but found [200]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [404] but found [200]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:1240)
-at org.testng.Assert.assertEquals(Assert.java:1274)
-at stepDefinations.TestOrder.verify_if_status_code_is_equal(TestOrder.java:39)
-at ✽.Verify if status code is equal 404(file:///Users/maltunbas/git/APIProjects/APITemplateProject-PetStore/src/test/java/features/petOrderValidations.feature:7)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@6950e31]" name="runScenario" duration-ms="1836" started-at="2022-11-27T23:15:17 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-27T23:15:18 EET">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@6950e31]" name="runScenario" duration-ms="812" started-at="2022-12-04T00:14:30 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-04T00:14:31 EET">
           <params>
             <param index="0">
               <value>
@@ -67,27 +50,10 @@ at ✽.Verify if status code is equal 404(file:///Users/maltunbas/git/APIProject
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [404] but found [200]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [404] but found [200]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:1240)
-at org.testng.Assert.assertEquals(Assert.java:1274)
-at stepDefinations.TestOrder.verify_if_status_code_is_equal(TestOrder.java:39)
-at ✽.Verify if status code is equal 404(file:///Users/maltunbas/git/APIProjects/APITemplateProject-PetStore/src/test/java/features/petOrderValidations.feature:7)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@6950e31]" name="runScenario" duration-ms="2091" started-at="2022-11-27T23:15:18 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-27T23:15:21 EET">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@6950e31]" name="runScenario" duration-ms="1608" started-at="2022-12-04T00:14:31 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-04T00:14:33 EET">
           <params>
             <param index="0">
               <value>
@@ -103,7 +69,7 @@ at ✽.Verify if status code is equal 404(file:///Users/maltunbas/git/APIProject
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@6950e31]" name="runScenario" duration-ms="1650" started-at="2022-11-27T23:15:21 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-27T23:15:22 EET">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@6950e31]" name="runScenario" duration-ms="1571" started-at="2022-12-04T00:14:33 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-04T00:14:34 EET">
           <params>
             <param index="0">
               <value>
@@ -119,7 +85,7 @@ at ✽.Verify if status code is equal 404(file:///Users/maltunbas/git/APIProject
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@6950e31]" name="runScenario" duration-ms="1819" started-at="2022-11-27T23:15:22 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-27T23:15:24 EET">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@6950e31]" name="runScenario" duration-ms="1502" started-at="2022-12-04T00:14:34 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-04T00:14:36 EET">
           <params>
             <param index="0">
               <value>
@@ -135,7 +101,7 @@ at ✽.Verify if status code is equal 404(file:///Users/maltunbas/git/APIProject
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.TestRunner@6950e31]" name="tearDownClass" is-config="true" duration-ms="191" started-at="2022-11-27T23:15:24 EET" finished-at="2022-11-27T23:15:24 EET">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.TestRunner@6950e31]" name="tearDownClass" is-config="true" duration-ms="239" started-at="2022-12-04T00:14:36 EET" finished-at="2022-12-04T00:14:36 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

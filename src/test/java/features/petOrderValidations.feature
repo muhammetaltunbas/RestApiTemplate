@@ -1,6 +1,5 @@
 Feature: Validating Order Pet API's
 
-  @addPet
   Scenario Outline: Verify creating order for a pet functionality is working
     Given Prepare createOrder payload with <id> <petId> <quantity>
     When User runs "createOrderApi" with "POST" https request

@@ -9,7 +9,6 @@ Feature: Validating PetStore API's
     Then Verify in response body "status" area is "Added"
     Then Verify "<name>" is proper using "getPetAPI"
 
-
     Examples:
       | id       | categoryName | name        |
       | 12991923 | Eagle        | Kara Kartal |

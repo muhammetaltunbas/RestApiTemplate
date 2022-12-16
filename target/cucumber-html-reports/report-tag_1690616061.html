@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>cucumber-jvm-example</td>
         <td>1</td>
-      <td>27 Nov 2022, 23:15</td>
+      <td>04 Dec 2022, 00:14</td>
     </tr>
   </tbody>
 </table>
@@ -129,19 +129,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@addPet</td>
-          <td      class="passed"    >10</td>
-          <td      class="failed"    >2</td>
-          <td     class="skipped"   >6</td>
+          <td      class="passed"    >6</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">18</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">6</td>
 
           <td  class="passed"    >1</td>
-          <td  class="failed"    >2</td>
-          <td class="total">3</td>
+          <td >0</td>
+          <td class="total">1</td>
 
-          <td class="duration" data-value="6481000000">6.481</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="1602000000">1.602</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -173,490 +173,6 @@ $(document).ready(function() {
 <div class="element">
     <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_2509720633.html">Validating Order Pet API's</a>
-    </div>
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_1690616061.html">@addPet</a>
-</div>
-
-
-  <span class="lead-duration duration">2.617</span>
-
-
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
-
-<div class="brief failed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Verify creating order for a pet functionality is working</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-1" class="collapse collapsable-details  in ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
-
-<div class="brief failed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">Prepare createOrder payload with <span class="argument">12991923</span> <span class="argument">1903</span> <span class="argument">5</span></span>
-
-  <span class="lead-duration duration">0.759</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">User runs <span class="argument">&quot;createOrderApi&quot;</span> with <span class="argument">&quot;POST&quot;</span> https request</span>
-
-  <span class="lead-duration duration">1.854</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then failed">
-  <span class="keyword indention">Then</span>
-  <span class="name">Verify if status code is equal <span class="argument">404</span></span>
-
-  <span class="lead-duration duration">0.004</span>
-
-</div>
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
-          <a>java.lang.AssertionError:</a>
-      </div>
-      <div id="msg-3" class="collapse collapsable-details  in ">
-        <pre>java.lang.AssertionError: expected [404] but found [200]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:1240)
-	at org.testng.Assert.assertEquals(Assert.java:1274)
-	at stepDefinations.TestOrder.verify_if_status_code_is_equal(TestOrder.java:39)
-	at &#10045;.Verify if status code is equal 404(file:///Users/maltunbas/git/APIProjects/APITemplateProject-PetStore/src/test/java/features/petOrderValidations.feature:7)
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then skipped">
-  <span class="keyword indention">Then</span>
-  <span class="name">Verify in response body <span class="argument">&quot;id&quot;</span> area is not null for order</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then skipped">
-  <span class="keyword indention">Then</span>
-  <span class="name">Verify in response body <span class="argument">&quot;petId&quot;</span> area is not null for order</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And skipped">
-  <span class="keyword indention">And</span>
-  <span class="name">Verify in response body <span class="argument">&quot;status&quot;</span> area is <span class="argument">&quot;placed&quot;</span> for order</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-    <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_2509720633.html">Validating Order Pet API's</a>
-    </div>
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_1690616061.html">@addPet</a>
-</div>
-
-
-  <span class="lead-duration duration">1.829</span>
-
-
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-4">
-
-<div class="brief failed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Verify creating order for a pet functionality is working</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-4" class="collapse collapsable-details  in ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-5">
-
-<div class="brief failed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-5" class="inner-level collapse collapsable-details  in ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">Prepare createOrder payload with <span class="argument">10711071</span> <span class="argument">1453</span> <span class="argument">1</span></span>
-
-  <span class="lead-duration duration">0.002</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">User runs <span class="argument">&quot;createOrderApi&quot;</span> with <span class="argument">&quot;POST&quot;</span> https request</span>
-
-  <span class="lead-duration duration">1.826</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then failed">
-  <span class="keyword indention">Then</span>
-  <span class="name">Verify if status code is equal <span class="argument">404</span></span>
-
-  <span class="lead-duration duration">0.001</span>
-
-</div>
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-6">
-          <a>java.lang.AssertionError:</a>
-      </div>
-      <div id="msg-6" class="collapse collapsable-details  in ">
-        <pre>java.lang.AssertionError: expected [404] but found [200]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:1240)
-	at org.testng.Assert.assertEquals(Assert.java:1274)
-	at stepDefinations.TestOrder.verify_if_status_code_is_equal(TestOrder.java:39)
-	at &#10045;.Verify if status code is equal 404(file:///Users/maltunbas/git/APIProjects/APITemplateProject-PetStore/src/test/java/features/petOrderValidations.feature:7)
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then skipped">
-  <span class="keyword indention">Then</span>
-  <span class="name">Verify in response body <span class="argument">&quot;id&quot;</span> area is not null for order</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then skipped">
-  <span class="keyword indention">Then</span>
-  <span class="name">Verify in response body <span class="argument">&quot;petId&quot;</span> area is not null for order</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And skipped">
-  <span class="keyword indention">And</span>
-  <span class="name">Verify in response body <span class="argument">&quot;status&quot;</span> area is <span class="argument">&quot;placed&quot;</span> for order</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-    <div class="indention">
-      <b>Feature:</b>
       <a href="report-feature_1_1880179227.html">Validating PetStore API's</a>
     </div>
 
@@ -667,10 +183,10 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">2.035</span>
+  <span class="lead-duration duration">1.602</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-7">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -683,14 +199,14 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-7" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-8">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -702,7 +218,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-8" class="inner-level collapse collapsable-details ">
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -710,7 +226,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">Prepare addPetAPI payload with <span class="argument">12991923</span> <span class="argument">&quot;Eagle&quot;</span> <span class="argument">&quot;Kara Kartal&quot;</span></span>
 
-  <span class="lead-duration duration">0.008</span>
+  <span class="lead-duration duration">0.007</span>
 
 </div>
 
@@ -737,7 +253,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">User calls <span class="argument">&quot;addPetAPI&quot;</span> with <span class="argument">&quot;POST&quot;</span> https request</span>
 
-  <span class="lead-duration duration">0.799</span>
+  <span class="lead-duration duration">0.746</span>
 
 </div>
 
@@ -791,7 +307,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">Verify in response body <span class="argument">&quot;id&quot;</span> area is not null</span>
 
-  <span class="lead-duration duration">0.375</span>
+  <span class="lead-duration duration">0.020</span>
 
 </div>
 
@@ -845,7 +361,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">Verify <span class="argument">&quot;Kara Kartal&quot;</span> is proper using <span class="argument">&quot;getPetAPI&quot;</span></span>
 
-  <span class="lead-duration duration">0.845</span>
+  <span class="lead-duration duration">0.821</span>
 
 </div>
 

@@ -1,80 +1,4 @@
 Request method:	POST
-Request URI:	https://petstore.swagger.io/v2/store/order
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "id": 12991923,
-    "petId": 1903,
-    "quantity": 5,
-    "shipDate": "2022-11-26T21:07:56.331+0000",
-    "status": "placed",
-    "complete": true
-}
-HTTP/1.1 200 OK
-Date: Sun, 27 Nov 2022 20:15:17 GMT
-Content-Type: application/json
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-Server: Jetty(9.2.9.v20150224)
-
-{
-    "id": 12991923,
-    "petId": 1903,
-    "quantity": 5,
-    "shipDate": "2022-11-26T21:07:56.331+0000",
-    "status": "placed",
-    "complete": true
-}
-Request method:	POST
-Request URI:	https://petstore.swagger.io/v2/store/order
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "id": 10711071,
-    "petId": 1453,
-    "quantity": 1,
-    "shipDate": "2022-11-26T21:07:56.331+0000",
-    "status": "placed",
-    "complete": true
-}
-HTTP/1.1 200 OK
-Date: Sun, 27 Nov 2022 20:15:19 GMT
-Content-Type: application/json
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-Server: Jetty(9.2.9.v20150224)
-
-{
-    "id": 10711071,
-    "petId": 1453,
-    "quantity": 1,
-    "shipDate": "2022-11-26T21:07:56.331+0000",
-    "status": "placed",
-    "complete": true
-}
-Request method:	POST
 Request URI:	https://petstore.swagger.io/v2/pet
 Proxy:			<none>
 Request params:	<none>
@@ -105,7 +29,7 @@ Body:
     "status": "Added"
 }
 HTTP/1.1 200 OK
-Date: Sun, 27 Nov 2022 20:15:19 GMT
+Date: Fri, 16 Dec 2022 08:28:25 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -145,7 +69,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 27 Nov 2022 20:15:21 GMT
+Date: Fri, 16 Dec 2022 08:28:26 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -203,7 +127,7 @@ Body:
     "status": "Updated"
 }
 HTTP/1.1 200 OK
-Date: Sun, 27 Nov 2022 20:15:22 GMT
+Date: Fri, 16 Dec 2022 08:28:27 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -243,7 +167,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 27 Nov 2022 20:15:22 GMT
+Date: Fri, 16 Dec 2022 08:28:28 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -283,7 +207,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 27 Nov 2022 20:15:23 GMT
+Date: Fri, 16 Dec 2022 08:28:28 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -310,7 +234,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 404 Not Found
-Date: Sun, 27 Nov 2022 20:15:24 GMT
+Date: Fri, 16 Dec 2022 08:28:29 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive

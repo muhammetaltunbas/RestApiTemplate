@@ -31,7 +31,8 @@ public class TestOrder extends Base {
 
     @When("User runs {string} with {string} https request")
     public void user_calls_with_https_request(String resource, String method) {
-        executeApiForOrder(resource, method);
+        resourceApi = ApiResources.valueOf(resource);
+        executeApi(resourceApi,method);
     }
 
     @Then("Verify if status code is equal {int}")
